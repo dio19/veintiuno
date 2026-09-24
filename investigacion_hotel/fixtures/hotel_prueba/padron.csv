@@ -1,0 +1,5 @@
+id,nombre,domicilio,telefono,email,web,tipo,calle,altura,direccion,long,lat,geometry
+9001,Hotel Prueba Veintiuno,"AV. CALLAO 1234",1133334444,reservas@hotelpruebaveintiuno.test,https://hotelpruebaveintiuno.test,3 Estrellas,AV. CALLAO,1234,AV. CALLAO 1234,-58.3925,-34.5955,POINT
+9002,Hostel Prueba Veintiuno,"AV. CALLAO 1250",1133335555,hola@hostelprueba.test,,Hospedaje B,AV. CALLAO,1250,AV. CALLAO 1250,-58.3927,-34.5956,POINT
+9003,Ker Recoleta,"JUNCAL 1234",1144445555,info@ker.test,https://ker.test,4 Estrellas,JUNCAL,1234,JUNCAL 1234,-58.3900,-34.5900,POINT
+9004,Petit Hotel Palermo,"THAMES 1500",1155556666,,https://petitpalermo.test,Registro de Prestadores-Boutique,THAMES,1500,THAMES 1500,-58.4300,-34.5880,POINT

@@ -1,0 +1,801 @@
+reserva_id,huesped,pais_residencia_declarado,documento_tipo,documento_en_legajo,canal,check_in,check_out,noches,tarifa_noche_ars,total_alojamiento_ars,desayuno_incluido,consumos_extra_ars,medio_pago,comprobante_clase,estado,motivo,neto_ars,iva_en_juego_ars
+R-1001,G. Ferrari,AR,DNI,si,Telefono/WhatsApp,2026-07-02,2026-07-04,2,104400,208800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,172562,0
+R-1002,P. Dubois,AR,DNI,si,Directo web,2026-07-11,2026-07-15,4,103700,414800,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,342810,0
+R-1003,E. Blanco,DE,Pasaporte,si,Walk-in,2026-09-07,2026-09-08,1,98800,98800,si,15200,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,81653,17147
+R-1004,M. Silva,AR,DNI,si,Booking.com,2026-06-25,2026-06-28,3,103800,311400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,257355,0
+R-1005,C. Rossi,AR,DNI,si,Booking.com,2026-07-24,2026-07-26,2,104700,209400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,173058,0
+R-1006,V. Romero,AR,DNI,si,Booking.com,2026-08-21,2026-08-23,2,96700,193400,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,159835,0
+R-1007,A. Costa,AR,DNI,si,Booking.com,2026-08-12,2026-08-14,2,101300,202600,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,167438,0
+R-1008,N. Garcia,US,Pasaporte,no,Expedia,2026-08-23,2026-08-26,3,109600,328800,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",271736,0
+R-1009,P. Dubois,AR,DNI,si,Walk-in,2026-06-19,2026-06-24,5,97000,485000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,400826,0
+R-1010,A. Costa,AR,DNI,si,Despegar,2026-08-25,2026-08-26,1,100100,100100,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,82727,0
+R-1011,P. Dubois,AR,DNI,si,Booking.com,2026-08-11,2026-08-12,1,99900,99900,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,82562,0
+R-1012,E. Blanco,AR,DNI,si,Telefono/WhatsApp,2026-07-31,2026-08-01,1,117400,117400,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,97025,0
+R-1013,K. Novak,UY,Pasaporte,no,Despegar,2026-07-13,2026-07-14,1,95400,95400,si,22000,transferencia_exterior,A,fuga,Transferencia desde banco del exterior,78843,16557
+R-1014,L. Fernandez,CL,Pasaporte,no,Walk-in,2026-06-30,2026-07-05,5,98000,490000,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",404959,0
+R-1015,L. Fernandez,CO,Pasaporte,si,Booking.com,2026-09-06,2026-09-07,1,101200,101200,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en Colombia (BIN 521212),83636,17564
+R-1016,L. Fernandez,AR,DNI,si,Telefono/WhatsApp,2026-07-31,2026-08-01,1,96600,96600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,79835,0
+R-1017,I. Petrov,AR,DNI,si,Expedia,2026-07-31,2026-08-02,2,97600,195200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,161322,0
+R-1018,O. Ahmed,MX,Pasaporte,si,Booking.com,2026-08-14,2026-08-19,5,93300,466500,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",385537,0
+R-1019,G. Ferrari,CO,Pasaporte,no,Expedia,2026-07-10,2026-07-12,2,94100,188200,si,22000,tarjeta,B,fuga,Tarjeta AMEX emitida en Colombia (BIN 521212),155537,32663
+R-1020,B. Lindqvist,AR,DNI,si,Despegar,2026-06-23,2026-06-26,3,91600,274800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,227107,0
+R-1021,A. Costa,AR,DNI,si,Directo web,2026-08-28,2026-09-01,4,109400,437600,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,361653,0
+R-1022,A. Costa,AR,DNI,si,Telefono/WhatsApp,2026-08-07,2026-08-09,2,104000,208000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,171901,0
+R-1023,V. Romero,AR,DNI,si,Booking.com,2026-09-03,2026-09-05,2,103800,207600,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,171570,0
+R-1024,T. Nakamura,AR,DNI,si,Despegar,2026-07-11,2026-07-13,2,115700,231400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,191240,0
+R-1025,D. Oliveira,MX,Pasaporte,no,Directo web,2026-08-27,2026-09-01,5,102300,511500,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",422727,0
+R-1026,T. Nakamura,AR,DNI,si,Booking.com,2026-06-11,2026-06-12,1,101300,101300,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,83719,0
+R-1027,T. Nakamura,AR,DNI,si,Walk-in,2026-08-16,2026-08-18,2,117400,234800,si,15200,efectivo_ars,A,no_elegible,Huésped residente en Argentina,194050,0
+R-1028,M. Silva,AR,DNI,si,Directo web,2026-08-05,2026-08-06,1,100400,100400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,82975,0
+R-1029,H. Weber,BR,Pasaporte,no,Booking.com,2026-06-30,2026-07-05,5,100600,503000,si,4500,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",415702,0
+R-1030,K. Novak,UY,Pasaporte,no,Booking.com,2026-07-03,2026-07-06,3,117200,351600,si,0,tarjeta,B,fuga,Tarjeta AMEX emitida en Uruguay (BIN 533012),290579,61021
+R-1031,R. Muller,CL,Pasaporte,no,Directo web,2026-08-24,2026-08-25,1,89500,89500,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",73967,0
+R-1032,J. Pereira,AR,DNI,si,Directo web,2026-07-05,2026-07-07,2,107200,214400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,177190,0
+R-1033,M. Silva,AR,DNI,si,Booking.com,2026-08-01,2026-08-06,5,113400,567000,si,15200,tarjeta,A,no_elegible,Huésped residente en Argentina,468595,0
+R-1034,F. Almeida,FR,Pasaporte,si,Walk-in,2026-08-05,2026-08-10,5,87400,437000,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en Francia (BIN 513412),361157,75843
+R-1035,C. Rossi,UY,Pasaporte,no,Telefono/WhatsApp,2026-07-26,2026-07-28,2,113000,226000,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",186777,0
+R-1036,I. Petrov,CL,Pasaporte,no,Despegar,2026-06-18,2026-06-19,1,103100,103100,si,0,tarjeta,T,riesgo_legajo,Tarjeta VISA emitida en Chile (BIN 456712),85207,17893
+R-1037,T. Nakamura,US,Pasaporte,no,Directo web,2026-09-07,2026-09-08,1,104000,104000,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 414720),85950,18050
+R-1038,B. Lindqvist,BR,Pasaporte,si,Booking.com,2026-08-11,2026-08-12,1,100400,100400,si,9800,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,82975,17425
+R-1039,K. Novak,AR,DNI,si,Directo web,2026-08-27,2026-09-01,5,95100,475500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,392975,0
+R-1040,I. Petrov,UY,Pasaporte,no,Walk-in,2026-06-14,2026-06-18,4,116100,464400,si,0,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en Uruguay (BIN 533012),383802,80598
+R-1041,M. Silva,AR,DNI,si,Directo web,2026-07-27,2026-08-01,5,92300,461500,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,381405,0
+R-1042,P. Dubois,AR,DNI,si,Despegar,2026-07-07,2026-07-11,4,105700,422800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,349421,0
+R-1043,J. Pereira,BR,Pasaporte,si,Walk-in,2026-09-01,2026-09-03,2,88800,177600,si,9800,tarjeta,T,correcto,Tarjeta VISA emitida en Brasil (BIN 438935),146777,30823
+R-1044,T. Nakamura,AR,DNI,si,Expedia,2026-06-15,2026-06-19,4,91100,364400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,301157,0
+R-1045,E. Blanco,ES,Pasaporte,si,Expedia,2026-06-15,2026-06-16,1,104200,104200,si,15200,tarjeta,T,correcto,Tarjeta VISA emitida en España (BIN 540012),86116,18084
+R-1046,A. Costa,AR,DNI,si,Despegar,2026-07-28,2026-08-02,5,92400,462000,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,381818,0
+R-1047,A. Costa,DE,Pasaporte,no,Directo web,2026-07-28,2026-07-31,3,106500,319500,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",264050,0
+R-1048,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-20,2026-07-22,2,106700,213400,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,176364,0
+R-1049,F. Almeida,AR,DNI,si,Booking.com,2026-09-01,2026-09-02,1,101200,101200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,83636,0
+R-1050,B. Lindqvist,AR,DNI,si,Booking.com,2026-06-12,2026-06-13,1,110300,110300,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,91157,0
+R-1051,L. Fernandez,BR,Pasaporte,no,Despegar,2026-07-10,2026-07-13,3,116900,350700,si,0,tarjeta,T,riesgo_legajo,Tarjeta MASTERCARD emitida en Brasil (BIN 552031),289835,60865
+R-1052,O. Ahmed,DE,Pasaporte,no,Despegar,2026-08-31,2026-09-03,3,94400,283200,si,15200,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Alemania (BIN 545612),234050,49150
+R-1053,V. Romero,AR,DNI,si,Booking.com,2026-08-12,2026-08-13,1,91700,91700,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,75785,0
+R-1054,R. Muller,AR,DNI,si,Booking.com,2026-06-12,2026-06-15,3,97200,291600,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,240992,0
+R-1055,H. Weber,AR,DNI,si,Walk-in,2026-07-07,2026-07-10,3,98400,295200,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,243967,0
+R-1056,H. Weber,AR,DNI,si,Booking.com,2026-09-03,2026-09-07,4,103500,414000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,342149,0
+R-1057,A. Costa,AR,DNI,si,Walk-in,2026-08-23,2026-08-25,2,105000,210000,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,173554,0
+R-1058,N. Garcia,DE,Pasaporte,si,Booking.com,2026-07-13,2026-07-17,4,87700,350800,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Alemania (BIN 545612),289917,60883
+R-1059,R. Muller,AR,DNI,si,Booking.com,2026-08-24,2026-08-25,1,87300,87300,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,72149,0
+R-1060,R. Muller,AR,DNI,si,Booking.com,2026-09-03,2026-09-06,3,105000,315000,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,260331,0
+R-1061,H. Weber,DE,Pasaporte,no,Booking.com,2026-08-21,2026-08-26,5,108600,543000,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",448760,0
+R-1062,K. Novak,AR,DNI,si,Directo web,2026-06-15,2026-06-16,1,102700,102700,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,84876,0
+R-1063,L. Fernandez,AR,DNI,si,Telefono/WhatsApp,2026-07-16,2026-07-19,3,87100,261300,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,215950,0
+R-1064,M. Silva,AR,DNI,si,Booking.com,2026-07-12,2026-07-15,3,113400,340200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,281157,0
+R-1065,D. Oliveira,CL,Pasaporte,no,Walk-in,2026-07-08,2026-07-12,4,103100,412400,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",340826,0
+R-1066,L. Fernandez,ES,Pasaporte,si,Despegar,2026-08-13,2026-08-16,3,87700,263100,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",217438,0
+R-1067,G. Ferrari,FR,Pasaporte,si,Booking.com,2026-06-28,2026-07-01,3,95800,287400,si,9800,tarjeta,B,fuga,Tarjeta AMEX emitida en Francia (BIN 497010),237521,49879
+R-1068,S. Johnson,AR,DNI,si,Directo web,2026-08-07,2026-08-12,5,116600,583000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,481818,0
+R-1069,L. Fernandez,AR,DNI,si,Directo web,2026-06-11,2026-06-14,3,91300,273900,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,226364,0
+R-1070,F. Almeida,UY,Pasaporte,si,Booking.com,2026-08-30,2026-09-01,2,100000,200000,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",165289,0
+R-1071,L. Fernandez,CO,Pasaporte,si,Booking.com,2026-07-02,2026-07-06,4,84600,338400,si,22000,tarjeta,T,correcto,Tarjeta AMEX emitida en Colombia (BIN 521212),279669,58731
+R-1072,C. Rossi,AR,DNI,si,Booking.com,2026-07-02,2026-07-05,3,101700,305100,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,252149,0
+R-1073,A. Costa,DE,Pasaporte,si,Booking.com,2026-07-18,2026-07-22,4,101000,404000,si,9800,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Alemania (BIN 545612),333884,70116
+R-1075,I. Petrov,CL,Pasaporte,si,Directo web,2026-07-04,2026-07-05,1,114800,114800,si,4500,efectivo_usd,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",94876,0
+R-1076,N. Garcia,AR,DNI,si,Expedia,2026-07-02,2026-07-06,4,101400,405600,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,335207,0
+R-1077,V. Romero,AR,DNI,si,Telefono/WhatsApp,2026-06-29,2026-07-02,3,105100,315300,si,0,transferencia_local,A,no_elegible,Huésped residente en Argentina,260579,0
+R-1078,P. Dubois,CL,Pasaporte,no,Directo web,2026-08-23,2026-08-25,2,105200,210400,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",173884,0
+R-1079,K. Novak,AR,DNI,si,Booking.com,2026-06-19,2026-06-24,5,109200,546000,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,451240,0
+R-1080,V. Romero,AR,DNI,si,Despegar,2026-08-18,2026-08-22,4,106100,424400,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,350744,0
+R-1081,E. Blanco,ES,Pasaporte,no,Despegar,2026-08-15,2026-08-19,4,112200,448800,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",370909,0
+R-1082,T. Nakamura,AR,DNI,si,Booking.com,2026-08-30,2026-09-04,5,117200,586000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,484298,0
+R-1083,O. Ahmed,AR,DNI,si,Despegar,2026-08-26,2026-08-29,3,105000,315000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,260331,0
+R-1084,D. Oliveira,BR,Pasaporte,no,Walk-in,2026-07-02,2026-07-05,3,107600,322800,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",266777,0
+R-1085,D. Oliveira,AR,DNI,si,Directo web,2026-07-05,2026-07-06,1,115100,115100,si,4500,tarjeta,A,no_elegible,Huésped residente en Argentina,95124,0
+R-1086,S. Johnson,AR,DNI,si,Booking.com,2026-07-10,2026-07-11,1,101500,101500,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,83884,0
+R-1087,E. Blanco,UY,Pasaporte,si,Booking.com,2026-07-04,2026-07-05,1,107500,107500,si,22000,tarjeta,T,correcto,Tarjeta VISA emitida en Uruguay (BIN 471589),88843,18657
+R-1088,O. Ahmed,AR,DNI,si,Directo web,2026-07-31,2026-08-02,2,117300,234600,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,193884,0
+R-1089,C. Rossi,AR,DNI,si,Directo web,2026-09-01,2026-09-04,3,93100,279300,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,230826,0
+R-1090,F. Almeida,AR,DNI,si,Booking.com,2026-08-15,2026-08-19,4,94100,376400,si,9800,transferencia_local,A,no_elegible,Huésped residente en Argentina,311074,0
+R-1091,G. Ferrari,BR,Pasaporte,si,Booking.com,2026-08-01,2026-08-05,4,111100,444400,si,4500,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 552031),367273,77127
+R-1092,J. Pereira,AR,DNI,si,Telefono/WhatsApp,2026-06-23,2026-06-25,2,95400,190800,si,4500,tarjeta,A,no_elegible,Huésped residente en Argentina,157686,0
+R-1093,H. Weber,DE,Pasaporte,no,Telefono/WhatsApp,2026-06-17,2026-06-21,4,89600,358400,si,4500,tarjeta,T,riesgo_legajo,Tarjeta VISA emitida en Alemania (BIN 545612),296198,62202
+R-1094,A. Costa,AR,DNI,si,Walk-in,2026-07-21,2026-07-23,2,100500,201000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,166116,0
+R-1095,A. Costa,BR,Pasaporte,no,Telefono/WhatsApp,2026-06-19,2026-06-22,3,112600,337800,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",279174,0
+R-1096,G. Ferrari,AR,DNI,si,Booking.com,2026-08-19,2026-08-23,4,93600,374400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,309421,0
+R-1097,C. Rossi,CO,Pasaporte,si,Despegar,2026-08-29,2026-08-31,2,112800,225600,si,0,tarjeta,T,correcto,Tarjeta AMEX emitida en Colombia (BIN 455708),186446,39154
+R-1098,J. Pereira,DE,Pasaporte,no,Booking.com,2026-07-31,2026-08-03,3,116000,348000,si,15200,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Alemania (BIN 492181),287603,60397
+R-1099,M. Silva,AR,DNI,si,Directo web,2026-07-30,2026-08-01,2,101900,203800,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,168430,0
+R-1100,A. Costa,BR,Pasaporte,no,Despegar,2026-06-27,2026-06-28,1,102700,102700,si,9800,efectivo_usd,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",84876,0
+R-1101,T. Nakamura,ES,Pasaporte,si,Booking.com,2026-07-15,2026-07-19,4,91400,365600,si,9800,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en España (BIN 454181),302149,63451
+R-1102,A. Costa,AR,DNI,si,Expedia,2026-08-15,2026-08-19,4,112600,450400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,372231,0
+R-1103,F. Almeida,AR,DNI,si,Booking.com,2026-07-29,2026-07-31,2,99200,198400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,163967,0
+R-1104,A. Costa,UY,Pasaporte,si,Telefono/WhatsApp,2026-08-11,2026-08-14,3,97900,293700,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Uruguay (BIN 471589),242727,50973
+R-1105,E. Blanco,ES,Pasaporte,si,Expedia,2026-06-16,2026-06-17,1,106400,106400,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",87934,0
+R-1106,C. Rossi,AR,DNI,si,Directo web,2026-06-27,2026-06-30,3,100000,300000,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,247934,0
+R-1107,B. Lindqvist,AR,DNI,si,Booking.com,2026-08-20,2026-08-21,1,99300,99300,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,82066,0
+R-1108,G. Ferrari,CL,Pasaporte,si,Booking.com,2026-08-20,2026-08-21,1,103400,103400,si,4500,tarjeta,T,correcto,Tarjeta AMEX emitida en Chile (BIN 530312),85455,17945
+R-1109,S. Johnson,US,Pasaporte,si,Despegar,2026-09-01,2026-09-03,2,92000,184000,si,4500,tarjeta,A,fuga,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 379141),152066,31934
+R-1110,V. Romero,AR,DNI,si,Despegar,2026-06-13,2026-06-15,2,97700,195400,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,161488,0
+R-1111,P. Dubois,AR,DNI,si,Telefono/WhatsApp,2026-08-31,2026-09-02,2,92400,184800,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,152727,0
+R-1112,A. Costa,CL,Pasaporte,si,Booking.com,2026-09-02,2026-09-04,2,95700,191400,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",158182,0
+R-1113,F. Almeida,MX,Pasaporte,no,Expedia,2026-06-30,2026-07-04,4,97200,388800,si,0,transferencia_exterior,A,fuga,Transferencia desde banco del exterior,321322,67478
+R-1114,I. Petrov,US,Pasaporte,si,Expedia,2026-07-06,2026-07-08,2,96500,193000,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",159504,0
+R-1115,T. Nakamura,AR,DNI,si,Booking.com,2026-07-22,2026-07-25,3,83600,250800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,207273,0
+R-1116,A. Costa,ES,Pasaporte,si,Directo web,2026-07-07,2026-07-09,2,98800,197600,si,22000,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en España (BIN 454181),163306,34294
+R-1117,O. Ahmed,BR,Pasaporte,no,Telefono/WhatsApp,2026-08-28,2026-08-29,1,107700,107700,si,15200,tarjeta,B,fuga,Tarjeta VISA emitida en Brasil (BIN 552031),89008,18692
+R-1118,H. Weber,UY,Pasaporte,si,Telefono/WhatsApp,2026-07-06,2026-07-08,2,104900,209800,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",173388,0
+R-1119,J. Pereira,CL,Pasaporte,no,Booking.com,2026-07-31,2026-08-01,1,106400,106400,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",87934,0
+R-1120,A. Costa,AR,DNI,si,Booking.com,2026-07-09,2026-07-16,7,99300,695100,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,574463,0
+R-1121,H. Weber,US,Pasaporte,no,Directo web,2026-09-01,2026-09-04,3,99200,297600,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",245950,0
+R-1122,K. Novak,BR,Pasaporte,no,Booking.com,2026-06-30,2026-07-02,2,101400,202800,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,167603,35197
+R-1123,B. Lindqvist,AR,DNI,si,Directo web,2026-08-06,2026-08-08,2,87100,174200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,143967,0
+R-1124,K. Novak,US,Pasaporte,si,Expedia,2026-06-26,2026-06-28,2,94000,188000,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",155372,0
+R-1125,L. Fernandez,CL,Pasaporte,si,Despegar,2026-07-08,2026-07-10,2,91600,183200,si,4500,tarjeta,B,fuga,Tarjeta VISA emitida en Chile (BIN 456712),151405,31795
+R-1126,P. Dubois,US,Pasaporte,si,Booking.com,2026-09-02,2026-09-07,5,98800,494000,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 379141),408264,85736
+R-1127,R. Muller,AR,DNI,si,Expedia,2026-07-27,2026-07-30,3,103500,310500,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,256612,0
+R-1128,R. Muller,UY,Pasaporte,no,Telefono/WhatsApp,2026-07-07,2026-07-08,1,89300,89300,si,9800,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",73802,0
+R-1129,B. Lindqvist,AR,DNI,si,Booking.com,2026-08-15,2026-08-18,3,116600,349800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,289091,0
+R-1130,L. Fernandez,AR,DNI,si,Despegar,2026-08-05,2026-08-06,1,95200,95200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,78678,0
+R-1131,G. Ferrari,AR,DNI,si,Directo web,2026-07-12,2026-07-13,1,97700,97700,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,80744,0
+R-1132,T. Nakamura,AR,DNI,si,Booking.com,2026-06-14,2026-06-18,4,113500,454000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,375207,0
+R-1133,M. Silva,MX,Pasaporte,si,Expedia,2026-08-14,2026-08-17,3,105200,315600,si,9800,tarjeta,T,correcto,Tarjeta VISA emitida en México (BIN 491667),260826,54774
+R-1134,L. Fernandez,AR,DNI,si,Booking.com,2026-09-03,2026-09-07,4,90800,363200,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,300165,0
+R-1135,H. Weber,US,Pasaporte,si,Booking.com,2026-07-12,2026-07-16,4,102700,410800,si,4500,tarjeta,T,correcto,Tarjeta VISA emitida en Estados Unidos (BIN 542418),339504,71296
+R-1136,N. Garcia,AR,DNI,si,Booking.com,2026-08-26,2026-08-29,3,106200,318600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,263306,0
+R-1137,V. Romero,AR,DNI,si,Booking.com,2026-06-19,2026-06-21,2,94900,189800,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,156860,0
+R-1138,B. Lindqvist,AR,DNI,si,Directo web,2026-08-25,2026-08-30,5,94300,471500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,389669,0
+R-1139,D. Oliveira,UY,Pasaporte,si,Booking.com,2026-08-25,2026-08-29,4,89600,358400,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",296198,0
+R-1140,P. Dubois,AR,DNI,si,Booking.com,2026-07-22,2026-07-24,2,85300,170600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,140992,0
+R-1141,R. Muller,BR,Pasaporte,si,Directo web,2026-06-24,2026-06-25,1,98400,98400,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en Brasil (BIN 438935),81322,17078
+R-1142,A. Costa,AR,DNI,si,Telefono/WhatsApp,2026-08-16,2026-08-20,4,104700,418800,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,346116,0
+R-1143,C. Rossi,AR,DNI,si,Despegar,2026-08-24,2026-08-28,4,98600,394400,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,325950,0
+R-1144,O. Ahmed,US,Pasaporte,no,Expedia,2026-09-02,2026-09-06,4,103500,414000,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",342149,0
+R-1145,G. Ferrari,AR,DNI,si,Despegar,2026-06-29,2026-06-30,1,91900,91900,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,75950,0
+R-1146,K. Novak,AR,DNI,si,Walk-in,2026-06-22,2026-06-27,5,99300,496500,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,410331,0
+R-1147,T. Nakamura,AR,DNI,si,Booking.com,2026-08-25,2026-08-26,1,84200,84200,si,0,efectivo_ars,A,no_elegible,Huésped residente en Argentina,69587,0
+R-1148,R. Muller,CL,Pasaporte,si,Directo web,2026-08-30,2026-09-01,2,113400,226800,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,187438,39362
+R-1149,J. Pereira,AR,DNI,si,Booking.com,2026-08-17,2026-08-19,2,92100,184200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,152231,0
+R-1150,T. Nakamura,CL,Pasaporte,si,Directo web,2026-06-14,2026-06-15,1,99300,99300,si,9800,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Chile (BIN 530312),82066,17234
+R-1151,V. Romero,AR,DNI,si,Booking.com,2026-08-02,2026-08-03,1,104700,104700,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,86529,0
+R-1152,E. Blanco,AR,DNI,si,Booking.com,2026-06-28,2026-07-01,3,94500,283500,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,234298,0
+R-1153,S. Johnson,ES,Pasaporte,si,Expedia,2026-07-30,2026-08-02,3,91700,275100,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",227355,0
+R-1154,T. Nakamura,AR,DNI,si,Booking.com,2026-06-18,2026-06-19,1,90800,90800,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,75041,0
+R-1155,K. Novak,BR,Pasaporte,no,Booking.com,2026-08-28,2026-08-29,1,104700,104700,si,9800,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",86529,0
+R-1156,J. Pereira,UY,Pasaporte,si,Booking.com,2026-08-09,2026-08-11,2,108500,217000,si,22000,tarjeta,B,fuga,Tarjeta VISA emitida en Uruguay (BIN 533012),179339,37661
+R-1157,A. Costa,CL,Pasaporte,si,Directo web,2026-07-16,2026-07-17,1,85100,85100,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",70331,0
+R-1158,O. Ahmed,AR,DNI,si,Booking.com,2026-06-28,2026-07-02,4,116800,467200,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,386116,0
+R-1159,R. Muller,AR,DNI,si,Booking.com,2026-07-01,2026-07-04,3,87400,262200,si,0,efectivo_ars,A,no_elegible,Huésped residente en Argentina,216694,0
+R-1160,M. Silva,ES,Pasaporte,si,Telefono/WhatsApp,2026-08-26,2026-08-29,3,106600,319800,si,15200,tarjeta,T,correcto,Tarjeta AMEX emitida en España (BIN 540012),264298,55502
+R-1161,K. Novak,AR,DNI,si,Directo web,2026-06-25,2026-07-02,7,103100,721700,si,15200,tarjeta,A,no_elegible,Huésped residente en Argentina,596446,0
+R-1162,R. Muller,AR,DNI,si,Booking.com,2026-08-07,2026-08-09,2,108400,216800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,179174,0
+R-1163,V. Romero,BR,Pasaporte,si,Directo web,2026-08-24,2026-08-26,2,96900,193800,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",160165,0
+R-1164,C. Rossi,FR,Pasaporte,si,Telefono/WhatsApp,2026-07-06,2026-07-08,2,98200,196400,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",162314,0
+R-1165,P. Dubois,UY,Pasaporte,no,Booking.com,2026-08-07,2026-08-08,1,102700,102700,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",84876,0
+R-1166,L. Fernandez,AR,DNI,si,Booking.com,2026-07-23,2026-07-26,3,98700,296100,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,244711,0
+R-1167,I. Petrov,BR,Pasaporte,no,Booking.com,2026-06-25,2026-06-28,3,102400,307200,si,9800,tarjeta,B,fuga,Tarjeta AMEX emitida en Brasil (BIN 516292),253884,53316
+R-1168,G. Ferrari,AR,DNI,si,Despegar,2026-07-13,2026-07-16,3,104600,313800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,259339,0
+R-1169,B. Lindqvist,FR,Pasaporte,si,Expedia,2026-08-05,2026-08-08,3,107100,321300,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",265537,0
+R-1170,V. Romero,AR,DNI,si,Despegar,2026-07-18,2026-07-23,5,107300,536500,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,443388,0
+R-1171,A. Costa,AR,DNI,si,Booking.com,2026-08-05,2026-08-06,1,91500,91500,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,75620,0
+R-1172,R. Muller,CO,Pasaporte,si,Telefono/WhatsApp,2026-08-16,2026-08-18,2,102900,205800,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,170083,35717
+R-1173,D. Oliveira,AR,DNI,si,Booking.com,2026-06-12,2026-06-14,2,105400,210800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,174215,0
+R-1174,C. Rossi,US,Pasaporte,si,Telefono/WhatsApp,2026-07-20,2026-07-24,4,98700,394800,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 414720),326281,68519
+R-1175,D. Oliveira,CO,Pasaporte,no,Booking.com,2026-07-22,2026-07-24,2,107300,214600,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",177355,0
+R-1176,L. Fernandez,CO,Pasaporte,no,Booking.com,2026-06-29,2026-07-01,2,86500,173000,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",142975,0
+R-1177,A. Costa,AR,DNI,si,Directo web,2026-07-20,2026-07-21,1,90700,90700,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,74959,0
+R-1178,G. Ferrari,AR,DNI,si,Despegar,2026-08-08,2026-08-15,7,116100,812700,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,671653,0
+R-1179,I. Petrov,AR,DNI,si,Booking.com,2026-07-20,2026-07-23,3,101200,303600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,250909,0
+R-1180,V. Romero,AR,DNI,si,Despegar,2026-08-04,2026-08-09,5,85700,428500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,354132,0
+R-1181,P. Dubois,AR,DNI,si,Telefono/WhatsApp,2026-07-31,2026-08-03,3,108300,324900,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,268512,0
+R-1182,R. Muller,AR,DNI,si,Booking.com,2026-07-27,2026-07-29,2,86400,172800,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,142810,0
+R-1183,A. Costa,AR,DNI,si,Walk-in,2026-08-08,2026-08-11,3,107500,322500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,266529,0
+R-1184,E. Blanco,CO,Pasaporte,si,Booking.com,2026-08-25,2026-08-27,2,86200,172400,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,142479,29921
+R-1185,B. Lindqvist,US,Pasaporte,no,Booking.com,2026-07-07,2026-07-08,1,108000,108000,si,0,transferencia_exterior,T,riesgo_legajo,Transferencia desde banco del exterior,89256,18744
+R-1186,S. Johnson,FR,Pasaporte,no,Booking.com,2026-07-10,2026-07-12,2,94000,188000,si,0,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",155372,0
+R-1187,H. Weber,AR,DNI,si,Telefono/WhatsApp,2026-08-17,2026-08-19,2,87700,175400,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,144959,0
+R-1188,H. Weber,DE,Pasaporte,no,Booking.com,2026-06-17,2026-06-24,7,92000,644000,si,9800,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,532231,111769
+R-1189,L. Fernandez,US,Pasaporte,si,Booking.com,2026-06-22,2026-06-24,2,104700,209400,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",173058,0
+R-1190,P. Dubois,ES,Pasaporte,si,Booking.com,2026-06-24,2026-06-27,3,107000,321000,si,15200,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",265289,0
+R-1191,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-11,2026-07-15,4,99200,396800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,327934,0
+R-1192,S. Johnson,AR,DNI,si,Expedia,2026-08-21,2026-08-23,2,96000,192000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,158678,0
+R-1193,O. Ahmed,AR,DNI,si,Directo web,2026-09-07,2026-09-09,2,95000,190000,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,157025,0
+R-1194,V. Romero,UY,Pasaporte,no,Booking.com,2026-07-29,2026-08-05,7,90100,630700,si,9800,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Uruguay (BIN 533012),521240,109460
+R-1195,P. Dubois,AR,DNI,si,Booking.com,2026-07-04,2026-07-05,1,114000,114000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,94215,0
+R-1196,M. Silva,AR,DNI,si,Booking.com,2026-06-15,2026-06-19,4,95700,382800,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,316364,0
+R-1197,O. Ahmed,CO,Pasaporte,no,Directo web,2026-08-29,2026-08-31,2,102200,204400,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",168926,0
+R-1198,G. Ferrari,AR,DNI,si,Despegar,2026-06-30,2026-07-04,4,102300,409200,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,338182,0
+R-1199,T. Nakamura,AR,DNI,si,Despegar,2026-07-13,2026-07-16,3,104400,313200,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,258843,0
+R-1200,G. Ferrari,AR,DNI,si,Booking.com,2026-08-20,2026-08-25,5,96900,484500,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,400413,0
+R-1201,H. Weber,ES,Pasaporte,no,Expedia,2026-08-26,2026-08-28,2,85500,171000,si,9800,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",141322,0
+R-1202,R. Muller,AR,DNI,si,Booking.com,2026-06-17,2026-06-20,3,92600,277800,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,229587,0
+R-1203,R. Muller,AR,DNI,si,Booking.com,2026-07-30,2026-08-01,2,99500,199000,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,164463,0
+R-1204,N. Garcia,BR,Pasaporte,no,Directo web,2026-07-15,2026-07-17,2,101200,202400,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en Brasil (BIN 516292),167273,35127
+R-1205,B. Lindqvist,UY,Pasaporte,si,Booking.com,2026-07-03,2026-07-05,2,99200,198400,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",163967,0
+R-1206,A. Costa,AR,DNI,si,Telefono/WhatsApp,2026-07-26,2026-07-27,1,115700,115700,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,95620,0
+R-1207,I. Petrov,FR,Pasaporte,si,Despegar,2026-06-16,2026-06-18,2,95500,191000,si,22000,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",157851,0
+R-1208,K. Novak,AR,DNI,si,Directo web,2026-08-08,2026-08-09,1,99500,99500,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,82231,0
+R-1209,A. Costa,AR,DNI,si,Booking.com,2026-07-18,2026-07-19,1,101900,101900,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,84215,0
+R-1210,G. Ferrari,UY,Pasaporte,si,Despegar,2026-09-03,2026-09-06,3,91900,275700,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,227851,47849
+R-1211,L. Fernandez,DE,Pasaporte,no,Walk-in,2026-06-24,2026-06-25,1,91500,91500,si,9800,tarjeta,B,fuga,Tarjeta VISA emitida en Alemania (BIN 545612),75620,15880
+R-1212,G. Ferrari,US,Pasaporte,no,Expedia,2026-07-02,2026-07-03,1,98200,98200,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",81157,0
+R-1213,O. Ahmed,AR,DNI,si,Despegar,2026-07-17,2026-07-20,3,96100,288300,si,9800,efectivo_ars,A,no_elegible,Huésped residente en Argentina,238264,0
+R-1214,N. Garcia,AR,DNI,si,Booking.com,2026-06-24,2026-06-27,3,103900,311700,si,15200,tarjeta,A,no_elegible,Huésped residente en Argentina,257603,0
+R-1215,K. Novak,AR,DNI,si,Booking.com,2026-07-04,2026-07-07,3,114600,343800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,284132,0
+R-1216,S. Johnson,AR,DNI,si,Despegar,2026-08-21,2026-08-22,1,104300,104300,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,86198,0
+R-1217,S. Johnson,AR,DNI,si,Telefono/WhatsApp,2026-07-05,2026-07-08,3,110000,330000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,272727,0
+R-1218,L. Fernandez,AR,DNI,si,Booking.com,2026-07-06,2026-07-07,1,89700,89700,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,74132,0
+R-1219,A. Costa,AR,DNI,si,Booking.com,2026-08-22,2026-08-29,7,117000,819000,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,676860,0
+R-1220,J. Pereira,AR,DNI,si,Despegar,2026-09-07,2026-09-09,2,84700,169400,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,140000,0
+R-1221,O. Ahmed,AR,DNI,si,Walk-in,2026-06-23,2026-06-30,7,101800,712600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,588926,0
+R-1222,R. Muller,AR,DNI,si,Booking.com,2026-08-04,2026-08-05,1,95800,95800,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,79174,0
+R-1223,H. Weber,AR,DNI,si,Expedia,2026-06-22,2026-06-24,2,101400,202800,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,167603,0
+R-1224,M. Silva,AR,DNI,si,Directo web,2026-08-27,2026-08-28,1,96800,96800,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,80000,0
+R-1225,S. Johnson,AR,DNI,si,Expedia,2026-08-19,2026-08-23,4,87100,348400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,287934,0
+R-1226,D. Oliveira,AR,DNI,si,Directo web,2026-06-20,2026-06-22,2,100600,201200,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,166281,0
+R-1227,F. Almeida,AR,DNI,si,Despegar,2026-07-03,2026-07-07,4,102600,410400,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,339174,0
+R-1228,A. Costa,CO,Pasaporte,no,Walk-in,2026-06-19,2026-06-24,5,106800,534000,si,4500,transferencia_exterior,A,fuga,Transferencia desde banco del exterior,441322,92678
+R-1229,J. Pereira,FR,Pasaporte,no,Expedia,2026-07-27,2026-07-30,3,96600,289800,si,15200,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",239504,0
+R-1230,M. Silva,AR,DNI,si,Telefono/WhatsApp,2026-06-28,2026-07-01,3,105300,315900,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,261074,0
+R-1231,E. Blanco,AR,DNI,si,Booking.com,2026-08-27,2026-08-30,3,100200,300600,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,248430,0
+R-1232,A. Costa,AR,DNI,si,Booking.com,2026-06-15,2026-06-17,2,91600,183200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,151405,0
+R-1233,D. Oliveira,UY,Pasaporte,si,Expedia,2026-08-13,2026-08-16,3,96600,289800,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",239504,0
+R-1234,S. Johnson,MX,Pasaporte,no,Booking.com,2026-07-02,2026-07-05,3,97100,291300,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",240744,0
+R-1235,M. Silva,AR,DNI,si,Booking.com,2026-07-06,2026-07-08,2,84000,168000,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,138843,0
+R-1236,J. Pereira,AR,DNI,si,Telefono/WhatsApp,2026-07-06,2026-07-08,2,98600,197200,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,162975,0
+R-1237,D. Oliveira,AR,DNI,si,Booking.com,2026-06-13,2026-06-16,3,105900,317700,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,262562,0
+R-1238,H. Weber,MX,Pasaporte,no,Expedia,2026-06-22,2026-06-23,1,98600,98600,si,22000,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",81488,0
+R-1239,L. Fernandez,AR,DNI,si,Booking.com,2026-08-10,2026-08-14,4,105000,420000,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,347107,0
+R-1240,J. Pereira,BR,Pasaporte,no,Booking.com,2026-06-15,2026-06-18,3,106300,318900,si,9800,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en Brasil (BIN 438935),263554,55346
+R-1241,J. Pereira,AR,DNI,si,Expedia,2026-07-03,2026-07-05,2,100400,200800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,165950,0
+R-1242,I. Petrov,AR,DNI,si,Booking.com,2026-08-25,2026-08-26,1,94400,94400,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,78017,0
+R-1243,N. Garcia,AR,DNI,si,Booking.com,2026-07-06,2026-07-09,3,93600,280800,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,232066,0
+R-1244,M. Silva,AR,DNI,si,Booking.com,2026-07-09,2026-07-13,4,107400,429600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,355041,0
+R-1245,I. Petrov,BR,Pasaporte,si,Booking.com,2026-06-26,2026-06-29,3,113400,340200,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",281157,0
+R-1246,N. Garcia,BR,Pasaporte,si,Despegar,2026-07-30,2026-08-01,2,108100,216200,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en Brasil (BIN 516292),178678,37522
+R-1247,T. Nakamura,AR,DNI,si,Directo web,2026-08-14,2026-08-15,1,99300,99300,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,82066,0
+R-1248,D. Oliveira,AR,DNI,si,Directo web,2026-09-04,2026-09-08,4,93300,373200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,308430,0
+R-1249,F. Almeida,AR,DNI,si,Booking.com,2026-08-23,2026-08-25,2,94500,189000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,156198,0
+R-1250,N. Garcia,AR,DNI,si,Booking.com,2026-07-27,2026-07-31,4,84400,337600,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,279008,0
+R-1251,M. Silva,AR,DNI,si,Despegar,2026-08-14,2026-08-18,4,103300,413200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,341488,0
+R-1252,I. Petrov,BR,Pasaporte,no,Directo web,2026-07-16,2026-07-20,4,98000,392000,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Brasil (BIN 438935),323967,68033
+R-1253,P. Dubois,AR,DNI,si,Directo web,2026-07-01,2026-07-03,2,104100,208200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,172066,0
+R-1254,C. Rossi,AR,DNI,si,Despegar,2026-07-29,2026-08-03,5,83800,419000,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,346281,0
+R-1255,N. Garcia,AR,DNI,si,Expedia,2026-08-06,2026-08-09,3,96800,290400,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,240000,0
+R-1256,H. Weber,AR,DNI,si,Booking.com,2026-08-31,2026-09-02,2,92300,184600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,152562,0
+R-1257,M. Silva,AR,DNI,si,Booking.com,2026-07-14,2026-07-18,4,94100,376400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,311074,0
+R-1258,S. Johnson,AR,DNI,si,Telefono/WhatsApp,2026-07-18,2026-07-20,2,115000,230000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,190083,0
+R-1259,V. Romero,AR,DNI,si,Directo web,2026-08-21,2026-08-23,2,107900,215800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,178347,0
+R-1260,I. Petrov,AR,DNI,si,Telefono/WhatsApp,2026-08-31,2026-09-04,4,96200,384800,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,318017,0
+R-1261,C. Rossi,AR,DNI,si,Directo web,2026-08-29,2026-08-30,1,93600,93600,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,77355,0
+R-1262,K. Novak,AR,DNI,si,Booking.com,2026-08-26,2026-08-29,3,85900,257700,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,212975,0
+R-1263,C. Rossi,AR,DNI,si,Booking.com,2026-08-22,2026-08-23,1,103400,103400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,85455,0
+R-1264,V. Romero,BR,Pasaporte,no,Booking.com,2026-07-03,2026-07-05,2,106200,212400,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",175537,0
+R-1265,J. Pereira,AR,DNI,si,Directo web,2026-06-26,2026-07-03,7,117200,820400,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,678017,0
+R-1266,T. Nakamura,AR,DNI,si,Expedia,2026-07-26,2026-07-29,3,107600,322800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,266777,0
+R-1267,S. Johnson,BR,Pasaporte,no,Booking.com,2026-07-07,2026-07-08,1,94900,94900,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",78430,0
+R-1268,V. Romero,AR,DNI,si,Telefono/WhatsApp,2026-06-17,2026-06-20,3,105200,315600,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,260826,0
+R-1269,K. Novak,BR,Pasaporte,si,Expedia,2026-07-30,2026-08-04,5,103700,518500,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",428512,0
+R-1270,G. Ferrari,US,Pasaporte,si,Walk-in,2026-09-07,2026-09-10,3,97500,292500,si,0,tarjeta,T,correcto,Tarjeta AMEX emitida en Estados Unidos (BIN 542418),241736,50764
+R-1271,N. Garcia,UY,Pasaporte,no,Booking.com,2026-06-17,2026-06-19,2,95100,190200,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",157190,0
+R-1272,A. Costa,BR,Pasaporte,si,Telefono/WhatsApp,2026-09-05,2026-09-06,1,100800,100800,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",83306,0
+R-1273,F. Almeida,US,Pasaporte,no,Expedia,2026-06-30,2026-07-01,1,107400,107400,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,88760,18640
+R-1274,F. Almeida,AR,DNI,si,Booking.com,2026-07-26,2026-07-27,1,107600,107600,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,88926,0
+R-1275,L. Fernandez,AR,DNI,si,Expedia,2026-08-11,2026-08-15,4,103500,414000,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,342149,0
+R-1276,N. Garcia,AR,DNI,si,Booking.com,2026-08-06,2026-08-11,5,101600,508000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,419835,0
+R-1277,H. Weber,AR,DNI,si,Booking.com,2026-08-28,2026-08-31,3,104000,312000,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,257851,0
+R-1278,H. Weber,CL,Pasaporte,no,Walk-in,2026-09-03,2026-09-05,2,98100,196200,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",162149,0
+R-1279,H. Weber,CO,Pasaporte,si,Booking.com,2026-08-12,2026-08-15,3,88000,264000,si,0,tarjeta,T,correcto,Tarjeta AMEX emitida en Colombia (BIN 455708),218182,45818
+R-1280,I. Petrov,BR,Pasaporte,si,Directo web,2026-08-17,2026-08-19,2,104100,208200,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,172066,36134
+R-1281,K. Novak,AR,DNI,si,Booking.com,2026-07-27,2026-07-28,1,91500,91500,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,75620,0
+R-1282,H. Weber,AR,DNI,si,Booking.com,2026-07-03,2026-07-05,2,101100,202200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,167107,0
+R-1283,C. Rossi,AR,DNI,si,Expedia,2026-08-01,2026-08-05,4,115000,460000,si,22000,efectivo_ars,A,no_elegible,Huésped residente en Argentina,380165,0
+R-1284,P. Dubois,AR,DNI,si,Booking.com,2026-08-10,2026-08-12,2,104700,209400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,173058,0
+R-1285,N. Garcia,AR,DNI,si,Walk-in,2026-07-21,2026-07-24,3,96000,288000,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,238017,0
+R-1286,B. Lindqvist,AR,DNI,si,Booking.com,2026-08-20,2026-08-27,7,84600,592200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,489421,0
+R-1287,K. Novak,US,Pasaporte,si,Telefono/WhatsApp,2026-07-03,2026-07-07,4,94700,378800,si,4500,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,313058,65742
+R-1288,R. Muller,AR,DNI,si,Telefono/WhatsApp,2026-06-26,2026-06-27,1,94200,94200,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,77851,0
+R-1289,A. Costa,US,Pasaporte,si,Booking.com,2026-06-19,2026-06-22,3,101600,304800,si,22000,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 542418),251901,52899
+R-1290,D. Oliveira,AR,DNI,si,Directo web,2026-07-17,2026-07-21,4,100200,400800,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,331240,0
+R-1291,E. Blanco,AR,DNI,si,Despegar,2026-07-24,2026-07-27,3,106900,320700,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,265041,0
+R-1292,I. Petrov,US,Pasaporte,si,Walk-in,2026-08-01,2026-08-02,1,95800,95800,si,4500,tarjeta,T,correcto,Tarjeta AMEX emitida en Estados Unidos (BIN 542418),79174,16626
+R-1293,I. Petrov,AR,DNI,si,Directo web,2026-06-29,2026-06-30,1,99300,99300,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,82066,0
+R-1294,G. Ferrari,CL,Pasaporte,si,Booking.com,2026-09-07,2026-09-08,1,97100,97100,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",80248,0
+R-1295,V. Romero,AR,DNI,si,Booking.com,2026-08-18,2026-08-20,2,92400,184800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,152727,0
+R-1296,J. Pereira,BR,Pasaporte,si,Booking.com,2026-06-27,2026-07-01,4,103000,412000,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,340496,71504
+R-1297,S. Johnson,US,Pasaporte,no,Directo web,2026-07-12,2026-07-14,2,106600,213200,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,176198,37002
+R-1298,B. Lindqvist,BR,Pasaporte,si,Directo web,2026-07-26,2026-07-28,2,103900,207800,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,171736,36064
+R-1299,N. Garcia,AR,DNI,si,Telefono/WhatsApp,2026-07-15,2026-07-16,1,105500,105500,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,87190,0
+R-1300,D. Oliveira,AR,DNI,si,Telefono/WhatsApp,2026-06-21,2026-06-22,1,95400,95400,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,78843,0
+R-1301,I. Petrov,US,Pasaporte,si,Expedia,2026-06-24,2026-06-27,3,95300,285900,si,15200,tarjeta,T,correcto,Tarjeta VISA emitida en Estados Unidos (BIN 414720),236281,49619
+R-1302,C. Rossi,MX,Pasaporte,no,Booking.com,2026-06-14,2026-06-15,1,109900,109900,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",90826,0
+R-1303,B. Lindqvist,AR,DNI,si,Booking.com,2026-08-16,2026-08-17,1,115100,115100,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,95124,0
+R-1304,M. Silva,AR,DNI,si,Expedia,2026-08-30,2026-09-01,2,94000,188000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,155372,0
+R-1305,H. Weber,AR,DNI,si,Booking.com,2026-09-03,2026-09-05,2,104800,209600,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,173223,0
+R-1306,I. Petrov,FR,Pasaporte,si,Telefono/WhatsApp,2026-08-05,2026-08-06,1,87200,87200,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",72066,0
+R-1307,K. Novak,AR,DNI,si,Booking.com,2026-06-20,2026-06-27,7,99700,697900,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,576777,0
+R-1308,A. Costa,AR,DNI,si,Booking.com,2026-09-04,2026-09-05,1,95400,95400,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,78843,0
+R-1309,J. Pereira,AR,DNI,si,Directo web,2026-06-18,2026-06-19,1,105900,105900,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,87521,0
+R-1310,O. Ahmed,AR,DNI,si,Booking.com,2026-07-18,2026-07-20,2,97200,194400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,160661,0
+R-1311,H. Weber,UY,Pasaporte,no,Booking.com,2026-06-22,2026-06-26,4,101400,405600,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",335207,0
+R-1312,G. Ferrari,AR,DNI,si,Directo web,2026-09-01,2026-09-05,4,98100,392400,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,324298,0
+R-1313,O. Ahmed,US,Pasaporte,si,Booking.com,2026-07-26,2026-07-28,2,117600,235200,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",194380,0
+R-1314,F. Almeida,AR,DNI,si,Directo web,2026-06-20,2026-06-25,5,94300,471500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,389669,0
+R-1315,V. Romero,AR,DNI,si,Booking.com,2026-07-21,2026-07-22,1,104100,104100,si,0,efectivo_ars,A,no_elegible,Huésped residente en Argentina,86033,0
+R-1316,E. Blanco,AR,DNI,si,Booking.com,2026-08-23,2026-08-27,4,116200,464800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,384132,0
+R-1317,J. Pereira,AR,DNI,si,Booking.com,2026-08-22,2026-08-25,3,108600,325800,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,269256,0
+R-1318,O. Ahmed,AR,DNI,si,Telefono/WhatsApp,2026-06-30,2026-07-04,4,107400,429600,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,355041,0
+R-1319,F. Almeida,BR,Pasaporte,no,Despegar,2026-09-06,2026-09-07,1,111600,111600,si,4500,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Brasil (BIN 516292),92231,19369
+R-1320,R. Muller,CO,Pasaporte,si,Directo web,2026-06-18,2026-06-19,1,91300,91300,si,9800,tarjeta,B,fuga,Tarjeta VISA emitida en Colombia (BIN 521212),75455,15845
+R-1321,H. Weber,AR,DNI,si,Walk-in,2026-07-04,2026-07-06,2,112500,225000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,185950,0
+R-1322,M. Silva,AR,DNI,si,Booking.com,2026-06-25,2026-07-02,7,101700,711900,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,588347,0
+R-1323,P. Dubois,AR,DNI,si,Telefono/WhatsApp,2026-08-31,2026-09-04,4,87200,348800,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,288264,0
+R-1324,R. Muller,DE,Pasaporte,no,Booking.com,2026-08-07,2026-08-09,2,115600,231200,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",191074,0
+R-1325,A. Costa,UY,Pasaporte,si,Directo web,2026-07-18,2026-07-20,2,107700,215400,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,178017,37383
+R-1326,M. Silva,AR,DNI,si,Despegar,2026-07-31,2026-08-01,1,117200,117200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,96860,0
+R-1327,O. Ahmed,AR,DNI,si,Walk-in,2026-07-28,2026-07-29,1,95900,95900,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,79256,0
+R-1328,T. Nakamura,AR,DNI,si,Directo web,2026-08-19,2026-08-20,1,94600,94600,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,78182,0
+R-1329,I. Petrov,AR,DNI,si,Booking.com,2026-09-06,2026-09-08,2,110600,221200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,182810,0
+R-1330,I. Petrov,AR,DNI,si,Despegar,2026-07-11,2026-07-16,5,93600,468000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,386777,0
+R-1331,J. Pereira,UY,Pasaporte,si,Directo web,2026-07-28,2026-08-04,7,99700,697900,si,9800,tarjeta,T,correcto,Tarjeta VISA emitida en Uruguay (BIN 471589),576777,121123
+R-1332,H. Weber,MX,Pasaporte,si,Walk-in,2026-08-15,2026-08-16,1,111300,111300,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en México (BIN 547034),91983,19317
+R-1333,D. Oliveira,AR,DNI,si,Telefono/WhatsApp,2026-08-09,2026-08-13,4,106200,424800,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,351074,0
+R-1334,B. Lindqvist,ES,Pasaporte,si,Expedia,2026-07-24,2026-07-27,3,106300,318900,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,263554,55346
+R-1335,N. Garcia,BR,Pasaporte,si,Despegar,2026-08-18,2026-08-23,5,94500,472500,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",390496,0
+R-1336,J. Pereira,BR,Pasaporte,si,Booking.com,2026-06-28,2026-07-01,3,101100,303300,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",250661,0
+R-1337,E. Blanco,US,Pasaporte,no,Telefono/WhatsApp,2026-06-21,2026-06-25,4,114500,458000,si,9800,tarjeta,B,fuga,Tarjeta VISA emitida en Estados Unidos (BIN 542418),378512,79488
+R-1338,G. Ferrari,US,Pasaporte,si,Booking.com,2026-07-28,2026-07-30,2,90900,181800,si,22000,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",150248,0
+R-1339,M. Silva,AR,DNI,si,Booking.com,2026-07-11,2026-07-13,2,104100,208200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,172066,0
+R-1340,V. Romero,CO,Pasaporte,no,Booking.com,2026-07-14,2026-07-15,1,86600,86600,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",71570,0
+R-1341,D. Oliveira,CO,Pasaporte,no,Booking.com,2026-06-15,2026-06-16,1,104800,104800,si,4500,tarjeta,B,fuga,Tarjeta VISA emitida en Colombia (BIN 455708),86612,18188
+R-1342,O. Ahmed,US,Pasaporte,no,Despegar,2026-07-24,2026-07-27,3,115800,347400,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",287107,0
+R-1343,G. Ferrari,AR,DNI,si,Booking.com,2026-06-13,2026-06-16,3,101700,305100,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,252149,0
+R-1344,G. Ferrari,AR,DNI,si,Despegar,2026-08-02,2026-08-04,2,95400,190800,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,157686,0
+R-1345,J. Pereira,AR,DNI,si,Booking.com,2026-07-16,2026-07-20,4,90300,361200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,298512,0
+R-1346,D. Oliveira,AR,DNI,si,Directo web,2026-08-17,2026-08-20,3,102300,306900,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,253636,0
+R-1347,S. Johnson,AR,DNI,si,Booking.com,2026-08-03,2026-08-04,1,108100,108100,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,89339,0
+R-1348,S. Johnson,BR,Pasaporte,si,Despegar,2026-07-17,2026-07-18,1,116600,116600,si,22000,tarjeta,T,correcto,Tarjeta AMEX emitida en Brasil (BIN 438935),96364,20236
+R-1349,D. Oliveira,AR,DNI,si,Directo web,2026-09-04,2026-09-06,2,117800,235600,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,194711,0
+R-1350,S. Johnson,AR,DNI,si,Telefono/WhatsApp,2026-08-02,2026-08-09,7,110200,771400,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,637521,0
+R-1351,A. Costa,AR,DNI,si,Booking.com,2026-07-20,2026-07-22,2,97900,195800,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,161818,0
+R-1352,C. Rossi,AR,DNI,si,Telefono/WhatsApp,2026-06-18,2026-06-20,2,95000,190000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,157025,0
+R-1353,T. Nakamura,AR,DNI,si,Directo web,2026-08-14,2026-08-18,4,111400,445600,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,368264,0
+R-1354,L. Fernandez,CL,Pasaporte,si,Booking.com,2026-08-21,2026-08-24,3,98500,295500,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",244215,0
+R-1355,V. Romero,AR,DNI,si,Booking.com,2026-09-05,2026-09-10,5,107200,536000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,442975,0
+R-1356,T. Nakamura,AR,DNI,si,Booking.com,2026-06-15,2026-06-18,3,100800,302400,si,4500,efectivo_ars,A,no_elegible,Huésped residente en Argentina,249917,0
+R-1357,T. Nakamura,UY,Pasaporte,no,Booking.com,2026-07-26,2026-07-27,1,95200,95200,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",78678,0
+R-1358,L. Fernandez,AR,DNI,si,Booking.com,2026-09-02,2026-09-04,2,101500,203000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,167769,0
+R-1359,C. Rossi,AR,DNI,si,Booking.com,2026-09-01,2026-09-03,2,99100,198200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,163802,0
+R-1360,T. Nakamura,AR,DNI,si,Booking.com,2026-06-19,2026-06-22,3,102800,308400,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,254876,0
+R-1361,A. Costa,UY,Pasaporte,si,Telefono/WhatsApp,2026-08-30,2026-08-31,1,109500,109500,si,22000,tarjeta,T,correcto,Tarjeta AMEX emitida en Uruguay (BIN 533012),90496,19004
+R-1362,N. Garcia,AR,DNI,si,Despegar,2026-06-11,2026-06-14,3,93700,281100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,232314,0
+R-1363,I. Petrov,AR,DNI,si,Expedia,2026-08-15,2026-08-17,2,99200,198400,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,163967,0
+R-1364,B. Lindqvist,AR,DNI,si,Directo web,2026-07-29,2026-07-31,2,101600,203200,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,167934,0
+R-1365,I. Petrov,CL,Pasaporte,si,Directo web,2026-08-10,2026-08-13,3,103400,310200,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",256364,0
+R-1366,I. Petrov,AR,DNI,si,Booking.com,2026-08-17,2026-08-21,4,86100,344400,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,284628,0
+R-1367,V. Romero,BR,Pasaporte,si,Expedia,2026-06-14,2026-06-16,2,111900,223800,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",184959,0
+R-1368,L. Fernandez,AR,DNI,si,Booking.com,2026-07-03,2026-07-07,4,116500,466000,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,385124,0
+R-1369,B. Lindqvist,US,Pasaporte,no,Despegar,2026-07-07,2026-07-14,7,90600,634200,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,524132,110068
+R-1370,D. Oliveira,US,Pasaporte,si,Directo web,2026-07-05,2026-07-08,3,98800,296400,si,15200,tarjeta,A,fuga,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 379141),244959,51441
+R-1371,O. Ahmed,AR,DNI,si,Booking.com,2026-06-27,2026-07-02,5,96700,483500,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,399587,0
+R-1372,J. Pereira,BR,Pasaporte,si,Booking.com,2026-07-24,2026-07-25,1,111400,111400,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 552031),92066,19334
+R-1373,D. Oliveira,BR,Pasaporte,si,Booking.com,2026-07-13,2026-07-16,3,85700,257100,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",212479,0
+R-1374,S. Johnson,AR,DNI,si,Telefono/WhatsApp,2026-08-13,2026-08-15,2,96200,192400,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,159008,0
+R-1375,O. Ahmed,BR,Pasaporte,si,Expedia,2026-08-11,2026-08-12,1,102400,102400,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",84628,0
+R-1376,T. Nakamura,AR,DNI,si,Booking.com,2026-07-22,2026-07-24,2,105600,211200,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,174545,0
+R-1377,R. Muller,AR,DNI,si,Booking.com,2026-08-07,2026-08-08,1,106500,106500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,88017,0
+R-1378,M. Silva,BR,Pasaporte,no,Directo web,2026-07-24,2026-07-26,2,93900,187800,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",155207,0
+R-1379,C. Rossi,AR,DNI,si,Telefono/WhatsApp,2026-08-01,2026-08-05,4,110600,442400,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,365620,0
+R-1380,M. Silva,CL,Pasaporte,no,Booking.com,2026-07-25,2026-07-27,2,116700,233400,si,0,tarjeta,A,fuga,Tarjeta MASTERCARD emitida en Chile (BIN 456712),192893,40507
+R-1381,O. Ahmed,AR,DNI,si,Telefono/WhatsApp,2026-07-22,2026-07-25,3,87500,262500,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,216942,0
+R-1382,J. Pereira,AR,DNI,si,Booking.com,2026-07-21,2026-07-23,2,97300,194600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,160826,0
+R-1383,K. Novak,AR,DNI,si,Booking.com,2026-07-28,2026-07-30,2,98500,197000,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,162810,0
+R-1384,B. Lindqvist,AR,DNI,si,Directo web,2026-07-24,2026-07-28,4,112700,450800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,372562,0
+R-1385,L. Fernandez,UY,Pasaporte,si,Directo web,2026-07-10,2026-07-15,5,100000,500000,si,22000,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,413223,86777
+R-1386,E. Blanco,CO,Pasaporte,si,Booking.com,2026-06-22,2026-06-24,2,96400,192800,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",159339,0
+R-1387,C. Rossi,AR,DNI,si,Booking.com,2026-07-07,2026-07-12,5,104200,521000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,430579,0
+R-1388,A. Costa,AR,DNI,si,Directo web,2026-06-22,2026-06-25,3,104500,313500,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,259091,0
+R-1389,B. Lindqvist,UY,Pasaporte,si,Booking.com,2026-07-09,2026-07-10,1,91800,91800,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",75868,0
+R-1390,T. Nakamura,US,Pasaporte,no,Booking.com,2026-08-22,2026-08-25,3,98500,295500,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",244215,0
+R-1391,O. Ahmed,AR,DNI,si,Booking.com,2026-06-13,2026-06-15,2,101100,202200,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,167107,0
+R-1392,K. Novak,UY,Pasaporte,si,Directo web,2026-06-21,2026-06-25,4,95300,381200,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,315041,66159
+R-1393,K. Novak,AR,DNI,si,Directo web,2026-06-11,2026-06-18,7,84800,593600,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,490579,0
+R-1394,E. Blanco,AR,DNI,si,Booking.com,2026-08-10,2026-08-11,1,84000,84000,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,69421,0
+R-1395,A. Costa,UY,Pasaporte,no,Booking.com,2026-07-14,2026-07-17,3,83900,251700,si,22000,efectivo_ars,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",208017,0
+R-1396,V. Romero,AR,DNI,si,Expedia,2026-06-20,2026-06-23,3,104100,312300,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,258099,0
+R-1397,O. Ahmed,CO,Pasaporte,no,Expedia,2026-08-01,2026-08-03,2,110400,220800,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",182479,0
+R-1398,M. Silva,US,Pasaporte,si,Telefono/WhatsApp,2026-07-31,2026-08-01,1,101300,101300,si,15200,tarjeta,T,correcto,Tarjeta VISA emitida en Estados Unidos (BIN 542418),83719,17581
+R-1399,R. Muller,UY,Pasaporte,si,Telefono/WhatsApp,2026-08-07,2026-08-09,2,117800,235600,si,9800,tarjeta,B,fuga,Tarjeta AMEX emitida en Uruguay (BIN 533012),194711,40889
+R-1400,H. Weber,CO,Pasaporte,no,Booking.com,2026-08-18,2026-08-19,1,89300,89300,si,0,tarjeta,T,riesgo_legajo,Tarjeta VISA emitida en Colombia (BIN 455708),73802,15498
+R-1401,G. Ferrari,AR,DNI,si,Despegar,2026-07-05,2026-07-10,5,106000,530000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,438017,0
+R-1402,S. Johnson,AR,DNI,si,Despegar,2026-08-01,2026-08-03,2,97900,195800,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,161818,0
+R-1403,V. Romero,AR,DNI,si,Booking.com,2026-06-24,2026-06-25,1,92900,92900,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,76777,0
+R-1404,N. Garcia,FR,Pasaporte,no,Despegar,2026-06-24,2026-06-29,5,102100,510500,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en Francia (BIN 513412),421901,88599
+R-1405,J. Pereira,AR,DNI,si,Despegar,2026-07-02,2026-07-04,2,103700,207400,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,171405,0
+R-1406,S. Johnson,AR,DNI,si,Expedia,2026-07-16,2026-07-20,4,86300,345200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,285289,0
+R-1407,N. Garcia,AR,DNI,si,Expedia,2026-08-31,2026-09-01,1,106000,106000,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,87603,0
+R-1408,H. Weber,AR,DNI,si,Booking.com,2026-09-05,2026-09-06,1,117500,117500,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,97107,0
+R-1409,L. Fernandez,AR,DNI,si,Booking.com,2026-08-09,2026-08-10,1,96200,96200,si,22000,efectivo_ars,A,no_elegible,Huésped residente en Argentina,79504,0
+R-1410,D. Oliveira,DE,Pasaporte,si,Despegar,2026-09-01,2026-09-02,1,100000,100000,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",82645,0
+R-1411,F. Almeida,AR,DNI,si,Directo web,2026-08-05,2026-08-09,4,102000,408000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,337190,0
+R-1412,L. Fernandez,AR,DNI,si,Despegar,2026-06-20,2026-06-23,3,94200,282600,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,233554,0
+R-1413,O. Ahmed,AR,DNI,si,Telefono/WhatsApp,2026-07-03,2026-07-04,1,100400,100400,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,82975,0
+R-1414,T. Nakamura,AR,DNI,si,Booking.com,2026-08-16,2026-08-18,2,108400,216800,si,9800,efectivo_ars,A,no_elegible,Huésped residente en Argentina,179174,0
+R-1415,A. Costa,DE,Pasaporte,no,Booking.com,2026-06-12,2026-06-14,2,100200,200400,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",165620,0
+R-1416,E. Blanco,MX,Pasaporte,no,Booking.com,2026-08-07,2026-08-09,2,115500,231000,si,4500,tarjeta,A,fuga,Tarjeta AMEX emitida en México (BIN 491667),190909,40091
+R-1417,H. Weber,US,Pasaporte,si,Booking.com,2026-08-22,2026-08-29,7,94800,663600,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",548430,0
+R-1418,M. Silva,AR,DNI,si,Despegar,2026-08-05,2026-08-07,2,96000,192000,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,158678,0
+R-1419,A. Costa,AR,DNI,si,Booking.com,2026-07-03,2026-07-05,2,102400,204800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,169256,0
+R-1420,K. Novak,MX,Pasaporte,si,Booking.com,2026-08-12,2026-08-15,3,92700,278100,si,9800,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",229835,0
+R-1421,B. Lindqvist,AR,DNI,si,Telefono/WhatsApp,2026-07-09,2026-07-11,2,107400,214800,si,22000,tarjeta,A,no_elegible,Huésped residente en Argentina,177521,0
+R-1422,D. Oliveira,AR,DNI,si,Booking.com,2026-06-24,2026-07-01,7,103100,721700,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,596446,0
+R-1423,G. Ferrari,AR,DNI,si,Expedia,2026-07-16,2026-07-21,5,105100,525500,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,434298,0
+R-1424,H. Weber,AR,DNI,si,Directo web,2026-08-13,2026-08-15,2,93500,187000,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,154545,0
+R-1425,G. Ferrari,UY,Pasaporte,si,Booking.com,2026-08-29,2026-09-02,4,117700,470800,si,0,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",389091,0
+R-1426,T. Nakamura,UY,Pasaporte,si,Directo web,2026-08-29,2026-08-31,2,114100,228200,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Uruguay (BIN 533012),188595,39605
+R-1427,R. Muller,UY,Pasaporte,si,Booking.com,2026-07-24,2026-07-27,3,116000,348000,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",287603,0
+R-1428,V. Romero,AR,DNI,si,Directo web,2026-09-06,2026-09-09,3,109800,329400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,272231,0
+R-1429,R. Muller,AR,DNI,si,Booking.com,2026-07-30,2026-07-31,1,87800,87800,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,72562,0
+R-1430,I. Petrov,AR,DNI,si,Despegar,2026-06-26,2026-06-28,2,100200,200400,si,4500,tarjeta,A,no_elegible,Huésped residente en Argentina,165620,0
+R-1431,O. Ahmed,AR,DNI,si,Booking.com,2026-08-17,2026-08-22,5,107200,536000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,442975,0
+R-1432,H. Weber,US,Pasaporte,no,Expedia,2026-08-08,2026-08-12,4,101400,405600,si,22000,tarjeta,B,fuga,Tarjeta VISA emitida en Estados Unidos (BIN 379141),335207,70393
+R-1433,J. Pereira,AR,DNI,si,Booking.com,2026-06-24,2026-06-26,2,104900,209800,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,173388,0
+R-1434,M. Silva,BR,Pasaporte,si,Telefono/WhatsApp,2026-07-30,2026-07-31,1,103100,103100,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 438935),85207,17893
+R-1435,A. Costa,AR,DNI,si,Directo web,2026-08-28,2026-09-02,5,108200,541000,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,447107,0
+R-1436,N. Garcia,DE,Pasaporte,si,Walk-in,2026-06-24,2026-06-26,2,101000,202000,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",166942,0
+R-1437,B. Lindqvist,UY,Pasaporte,no,Directo web,2026-09-04,2026-09-06,2,108500,217000,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",179339,0
+R-1438,D. Oliveira,AR,DNI,si,Telefono/WhatsApp,2026-07-29,2026-07-30,1,94700,94700,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,78264,0
+R-1439,J. Pereira,AR,DNI,si,Despegar,2026-06-22,2026-06-24,2,90300,180600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,149256,0
+R-1440,S. Johnson,AR,DNI,si,Directo web,2026-06-21,2026-06-24,3,95800,287400,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,237521,0
+R-1441,I. Petrov,AR,DNI,si,Telefono/WhatsApp,2026-08-03,2026-08-06,3,106500,319500,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,264050,0
+R-1442,A. Costa,AR,DNI,si,Telefono/WhatsApp,2026-07-15,2026-07-18,3,93800,281400,si,22000,tarjeta,A,no_elegible,Huésped residente en Argentina,232562,0
+R-1443,F. Almeida,AR,DNI,si,Directo web,2026-06-17,2026-06-20,3,104800,314400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,259835,0
+R-1444,N. Garcia,US,Pasaporte,no,Booking.com,2026-07-15,2026-07-18,3,84400,253200,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",209256,0
+R-1445,L. Fernandez,AR,DNI,si,Booking.com,2026-06-14,2026-06-15,1,99900,99900,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,82562,0
+R-1446,T. Nakamura,MX,Pasaporte,si,Booking.com,2026-08-28,2026-08-31,3,102900,308700,si,22000,efectivo_ars,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",255124,0
+R-1447,S. Johnson,ES,Pasaporte,no,Booking.com,2026-06-30,2026-07-01,1,89200,89200,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",73719,0
+R-1448,A. Costa,AR,DNI,si,Directo web,2026-06-25,2026-06-28,3,88700,266100,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,219917,0
+R-1449,V. Romero,AR,DNI,si,Despegar,2026-08-14,2026-08-17,3,106900,320700,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,265041,0
+R-1450,I. Petrov,CO,Pasaporte,si,Directo web,2026-07-13,2026-07-15,2,92500,185000,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Colombia (BIN 521212),152893,32107
+R-1451,D. Oliveira,AR,DNI,si,Telefono/WhatsApp,2026-08-07,2026-08-09,2,98600,197200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,162975,0
+R-1452,K. Novak,MX,Pasaporte,si,Expedia,2026-07-18,2026-07-25,7,113000,791000,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",653719,0
+R-1453,O. Ahmed,CO,Pasaporte,si,Despegar,2026-08-17,2026-08-19,2,96600,193200,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",159669,0
+R-1454,T. Nakamura,AR,DNI,si,Booking.com,2026-09-07,2026-09-09,2,90800,181600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,150083,0
+R-1455,J. Pereira,AR,DNI,si,Expedia,2026-07-29,2026-07-31,2,98800,197600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,163306,0
+R-1456,C. Rossi,AR,DNI,si,Booking.com,2026-08-18,2026-08-20,2,83700,167400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,138347,0
+R-1457,F. Almeida,CO,Pasaporte,no,Despegar,2026-06-30,2026-07-01,1,88700,88700,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",73306,0
+R-1458,P. Dubois,US,Pasaporte,si,Despegar,2026-08-15,2026-08-17,2,104300,208600,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",172397,0
+R-1459,N. Garcia,AR,DNI,si,Booking.com,2026-06-20,2026-06-21,1,108000,108000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,89256,0
+R-1460,V. Romero,AR,DNI,si,Directo web,2026-08-14,2026-08-21,7,104300,730100,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,603388,0
+R-1461,O. Ahmed,AR,DNI,si,Booking.com,2026-08-12,2026-08-14,2,100500,201000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,166116,0
+R-1462,L. Fernandez,CO,Pasaporte,si,Booking.com,2026-07-20,2026-07-23,3,89200,267600,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",221157,0
+R-1463,D. Oliveira,AR,DNI,si,Booking.com,2026-08-10,2026-08-12,2,94000,188000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,155372,0
+R-1464,A. Costa,FR,Pasaporte,si,Walk-in,2026-08-08,2026-08-11,3,96800,290400,si,22000,tarjeta,B,fuga,Tarjeta AMEX emitida en Francia (BIN 497010),240000,50400
+R-1465,I. Petrov,ES,Pasaporte,no,Walk-in,2026-08-24,2026-08-31,7,85900,601300,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",496942,0
+R-1466,O. Ahmed,BR,Pasaporte,no,Telefono/WhatsApp,2026-07-26,2026-07-28,2,110400,220800,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",182479,0
+R-1467,M. Silva,AR,DNI,si,Directo web,2026-07-14,2026-07-17,3,87300,261900,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,216446,0
+R-1468,L. Fernandez,AR,DNI,si,Booking.com,2026-07-22,2026-07-27,5,87300,436500,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,360744,0
+R-1469,L. Fernandez,AR,DNI,si,Booking.com,2026-08-09,2026-08-10,1,100000,100000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,82645,0
+R-1470,O. Ahmed,AR,DNI,si,Booking.com,2026-08-12,2026-08-16,4,84300,337200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,278678,0
+R-1471,J. Pereira,FR,Pasaporte,si,Booking.com,2026-07-17,2026-07-19,2,94100,188200,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Francia (BIN 497010),155537,32663
+R-1472,K. Novak,AR,DNI,si,Walk-in,2026-08-31,2026-09-04,4,105200,420800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,347769,0
+R-1473,V. Romero,UY,Pasaporte,si,Walk-in,2026-08-22,2026-08-23,1,117000,117000,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,96694,20306
+R-1474,J. Pereira,AR,DNI,si,Booking.com,2026-08-02,2026-08-04,2,105800,211600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,174876,0
+R-1475,I. Petrov,US,Pasaporte,si,Despegar,2026-07-31,2026-08-04,4,103700,414800,si,22000,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",342810,0
+R-1476,M. Silva,AR,DNI,si,Booking.com,2026-07-08,2026-07-09,1,106900,106900,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,88347,0
+R-1477,C. Rossi,AR,DNI,si,Despegar,2026-08-14,2026-08-17,3,112200,336600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,278182,0
+R-1478,K. Novak,BR,Pasaporte,no,Booking.com,2026-07-12,2026-07-13,1,108800,108800,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",89917,0
+R-1479,O. Ahmed,AR,DNI,si,Booking.com,2026-07-14,2026-07-16,2,88900,177800,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,146942,0
+R-1480,P. Dubois,BR,Pasaporte,no,Booking.com,2026-09-04,2026-09-08,4,107100,428400,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",354050,0
+R-1481,L. Fernandez,AR,DNI,si,Directo web,2026-08-12,2026-08-15,3,84600,253800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,209752,0
+R-1482,E. Blanco,BR,Pasaporte,no,Booking.com,2026-08-24,2026-08-26,2,83900,167800,si,15200,tarjeta,B,fuga,Tarjeta AMEX emitida en Brasil (BIN 438935),138678,29122
+R-1483,R. Muller,AR,DNI,si,Telefono/WhatsApp,2026-07-13,2026-07-14,1,99700,99700,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,82397,0
+R-1484,E. Blanco,US,Pasaporte,si,Booking.com,2026-06-18,2026-06-21,3,96900,290700,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,240248,50452
+R-1485,K. Novak,BR,Pasaporte,si,Walk-in,2026-08-09,2026-08-14,5,106000,530000,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",438017,0
+R-1486,H. Weber,AR,DNI,si,Walk-in,2026-08-08,2026-08-10,2,110500,221000,si,22000,efectivo_ars,A,no_elegible,Huésped residente en Argentina,182645,0
+R-1487,M. Silva,AR,DNI,si,Directo web,2026-07-28,2026-07-29,1,101800,101800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,84132,0
+R-1488,N. Garcia,AR,DNI,si,Booking.com,2026-08-26,2026-08-29,3,84700,254100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,210000,0
+R-1489,S. Johnson,AR,DNI,si,Booking.com,2026-08-10,2026-08-15,5,101500,507500,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,419421,0
+R-1490,V. Romero,AR,DNI,si,Despegar,2026-08-23,2026-08-25,2,99700,199400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,164793,0
+R-1491,L. Fernandez,AR,DNI,si,Expedia,2026-07-16,2026-07-20,4,95300,381200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,315041,0
+R-1492,V. Romero,BR,Pasaporte,si,Booking.com,2026-08-12,2026-08-15,3,87300,261900,si,9800,tarjeta,T,correcto,Tarjeta AMEX emitida en Brasil (BIN 438935),216446,45454
+R-1493,O. Ahmed,FR,Pasaporte,no,Booking.com,2026-07-14,2026-07-17,3,104200,312600,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",258347,0
+R-1494,N. Garcia,BR,Pasaporte,no,Despegar,2026-07-24,2026-07-26,2,104900,209800,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",173388,0
+R-1495,I. Petrov,AR,DNI,si,Expedia,2026-08-10,2026-08-12,2,86700,173400,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,143306,0
+R-1496,M. Silva,AR,DNI,si,Booking.com,2026-08-15,2026-08-16,1,111000,111000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,91736,0
+R-1497,E. Blanco,AR,DNI,si,Expedia,2026-07-04,2026-07-05,1,107600,107600,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,88926,0
+R-1498,O. Ahmed,AR,DNI,si,Booking.com,2026-06-22,2026-06-26,4,93100,372400,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,307769,0
+R-1499,R. Muller,AR,DNI,si,Expedia,2026-08-14,2026-08-17,3,114800,344400,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,284628,0
+R-1500,R. Muller,AR,DNI,si,Booking.com,2026-07-29,2026-07-30,1,85300,85300,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,70496,0
+R-1501,D. Oliveira,AR,DNI,si,Booking.com,2026-07-14,2026-07-17,3,104700,314100,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,259587,0
+R-1502,J. Pereira,AR,DNI,si,Booking.com,2026-08-28,2026-09-01,4,117500,470000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,388430,0
+R-1503,C. Rossi,AR,DNI,si,Booking.com,2026-08-25,2026-08-27,2,100000,200000,si,22000,efectivo_ars,A,no_elegible,Huésped residente en Argentina,165289,0
+R-1504,F. Almeida,AR,DNI,si,Booking.com,2026-08-29,2026-08-31,2,94000,188000,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,155372,0
+R-1505,G. Ferrari,AR,DNI,si,Directo web,2026-06-22,2026-06-27,5,89200,446000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,368595,0
+R-1506,F. Almeida,MX,Pasaporte,si,Booking.com,2026-07-09,2026-07-11,2,88400,176800,si,9800,tarjeta,A,fuga,Tarjeta VISA emitida en México (BIN 547034),146116,30684
+R-1507,T. Nakamura,BR,Pasaporte,si,Booking.com,2026-06-27,2026-06-29,2,96200,192400,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",159008,0
+R-1508,L. Fernandez,BR,Pasaporte,no,Directo web,2026-08-11,2026-08-15,4,87400,349600,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Brasil (BIN 516292),288926,60674
+R-1509,O. Ahmed,AR,DNI,si,Booking.com,2026-07-30,2026-07-31,1,94200,94200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,77851,0
+R-1510,E. Blanco,BR,Pasaporte,si,Booking.com,2026-08-28,2026-08-29,1,108200,108200,si,22000,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,89421,18779
+R-1511,H. Weber,FR,Pasaporte,si,Expedia,2026-07-10,2026-07-13,3,106700,320100,si,15200,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Francia (BIN 513412),264545,55555
+R-1512,A. Costa,BR,Pasaporte,no,Booking.com,2026-08-23,2026-08-26,3,97400,292200,si,22000,efectivo_ars,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",241488,0
+R-1513,L. Fernandez,AR,DNI,si,Booking.com,2026-07-17,2026-07-20,3,101400,304200,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,251405,0
+R-1514,L. Fernandez,DE,Pasaporte,si,Telefono/WhatsApp,2026-07-01,2026-07-06,5,106200,531000,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,438843,92157
+R-1515,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-06,2026-07-10,4,90400,361600,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,298843,0
+R-1516,C. Rossi,AR,DNI,si,Expedia,2026-07-20,2026-07-22,2,85600,171200,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,141488,0
+R-1517,A. Costa,FR,Pasaporte,si,Booking.com,2026-07-05,2026-07-06,1,106300,106300,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",87851,0
+R-1518,E. Blanco,AR,DNI,si,Booking.com,2026-06-27,2026-07-01,4,107100,428400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,354050,0
+R-1519,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-01,2026-07-04,3,88700,266100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,219917,0
+R-1520,J. Pereira,US,Pasaporte,no,Directo web,2026-07-01,2026-07-02,1,106900,106900,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",88347,0
+R-1521,K. Novak,AR,DNI,si,Booking.com,2026-08-11,2026-08-16,5,91700,458500,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,378926,0
+R-1522,N. Garcia,FR,Pasaporte,no,Walk-in,2026-08-29,2026-08-31,2,117600,235200,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",194380,0
+R-1523,I. Petrov,ES,Pasaporte,si,Expedia,2026-06-21,2026-06-25,4,102900,411600,si,9800,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",340165,0
+R-1524,P. Dubois,BR,Pasaporte,no,Booking.com,2026-06-27,2026-06-30,3,110600,331800,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,274215,57585
+R-1525,C. Rossi,AR,DNI,si,Booking.com,2026-07-16,2026-07-19,3,105900,317700,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,262562,0
+R-1526,D. Oliveira,AR,DNI,si,Despegar,2026-06-18,2026-06-22,4,87400,349600,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,288926,0
+R-1527,V. Romero,DE,Pasaporte,si,Directo web,2026-08-13,2026-08-14,1,106200,106200,si,15200,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Alemania (BIN 545612),87769,18431
+R-1528,G. Ferrari,AR,DNI,si,Directo web,2026-06-12,2026-06-14,2,101800,203600,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,168264,0
+R-1529,E. Blanco,AR,DNI,si,Booking.com,2026-08-18,2026-08-25,7,101300,709100,si,15200,transferencia_local,B,no_elegible,Huésped residente en Argentina,586033,0
+R-1530,O. Ahmed,AR,DNI,si,Booking.com,2026-08-10,2026-08-17,7,102200,715400,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,591240,0
+R-1531,K. Novak,AR,DNI,si,Despegar,2026-08-01,2026-08-03,2,98200,196400,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,162314,0
+R-1532,D. Oliveira,AR,DNI,si,Booking.com,2026-07-13,2026-07-16,3,86900,260700,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,215455,0
+R-1533,I. Petrov,BR,Pasaporte,no,Directo web,2026-08-31,2026-09-04,4,100100,400400,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",330909,0
+R-1534,A. Costa,CL,Pasaporte,no,Booking.com,2026-08-24,2026-08-28,4,87800,351200,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",290248,0
+R-1535,I. Petrov,DE,Pasaporte,si,Booking.com,2026-08-26,2026-09-02,7,87700,613900,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",507355,0
+R-1536,B. Lindqvist,AR,DNI,si,Booking.com,2026-08-05,2026-08-07,2,90500,181000,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,149587,0
+R-1537,K. Novak,AR,DNI,si,Booking.com,2026-08-07,2026-08-12,5,112300,561500,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,464050,0
+R-1538,P. Dubois,AR,DNI,si,Telefono/WhatsApp,2026-06-30,2026-07-04,4,88800,355200,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,293554,0
+R-1539,J. Pereira,BR,Pasaporte,no,Walk-in,2026-06-27,2026-06-29,2,109700,219400,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",181322,0
+R-1540,R. Muller,AR,DNI,si,Booking.com,2026-07-07,2026-07-09,2,96600,193200,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,159669,0
+R-1541,G. Ferrari,AR,DNI,si,Expedia,2026-08-24,2026-08-27,3,98100,294300,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,243223,0
+R-1542,S. Johnson,AR,DNI,si,Booking.com,2026-07-20,2026-07-22,2,103800,207600,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,171570,0
+R-1543,R. Muller,US,Pasaporte,no,Despegar,2026-07-06,2026-07-13,7,99000,693000,si,0,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",572727,0
+R-1544,K. Novak,AR,DNI,si,Booking.com,2026-06-13,2026-06-15,2,100600,201200,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,166281,0
+R-1545,S. Johnson,AR,DNI,si,Telefono/WhatsApp,2026-06-23,2026-06-25,2,88400,176800,si,0,efectivo_ars,A,no_elegible,Huésped residente en Argentina,146116,0
+R-1546,D. Oliveira,CL,Pasaporte,si,Expedia,2026-09-05,2026-09-10,5,107000,535000,si,22000,tarjeta,T,correcto,Tarjeta VISA emitida en Chile (BIN 456712),442149,92851
+R-1547,K. Novak,AR,DNI,si,Booking.com,2026-08-12,2026-08-14,2,88300,176600,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,145950,0
+R-1548,F. Almeida,AR,DNI,si,Telefono/WhatsApp,2026-09-01,2026-09-04,3,93000,279000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,230579,0
+R-1549,P. Dubois,AR,DNI,si,Directo web,2026-08-06,2026-08-09,3,99600,298800,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,246942,0
+R-1550,J. Pereira,BR,Pasaporte,si,Booking.com,2026-09-03,2026-09-06,3,98200,294600,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 516292),243471,51129
+R-1551,I. Petrov,CL,Pasaporte,no,Telefono/WhatsApp,2026-07-29,2026-08-02,4,95600,382400,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Chile (BIN 530312),316033,66367
+R-1552,L. Fernandez,FR,Pasaporte,no,Directo web,2026-08-16,2026-08-23,7,111000,777000,si,9800,tarjeta,B,fuga,Tarjeta VISA emitida en Francia (BIN 513412),642149,134851
+R-1553,O. Ahmed,AR,DNI,si,Despegar,2026-07-31,2026-08-02,2,95600,191200,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,158017,0
+R-1554,D. Oliveira,AR,DNI,si,Booking.com,2026-07-26,2026-07-29,3,114200,342600,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,283140,0
+R-1555,O. Ahmed,ES,Pasaporte,si,Booking.com,2026-08-03,2026-08-05,2,97700,195400,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en España (BIN 540012),161488,33912
+R-1556,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-23,2026-07-26,3,95500,286500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,236777,0
+R-1557,F. Almeida,AR,DNI,si,Expedia,2026-08-16,2026-08-18,2,116800,233600,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,193058,0
+R-1558,P. Dubois,DE,Pasaporte,si,Directo web,2026-06-11,2026-06-12,1,86300,86300,si,0,tarjeta,T,correcto,Tarjeta AMEX emitida en Alemania (BIN 492181),71322,14978
+R-1559,A. Costa,AR,DNI,si,Booking.com,2026-07-21,2026-07-25,4,88300,353200,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,291901,0
+R-1560,T. Nakamura,AR,DNI,si,Telefono/WhatsApp,2026-08-07,2026-08-09,2,104000,208000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,171901,0
+R-1561,H. Weber,AR,DNI,si,Booking.com,2026-07-16,2026-07-19,3,86100,258300,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,213471,0
+R-1562,T. Nakamura,DE,Pasaporte,no,Booking.com,2026-08-24,2026-08-26,2,85900,171800,si,0,transferencia_exterior,A,fuga,Transferencia desde banco del exterior,141983,29817
+R-1563,N. Garcia,CL,Pasaporte,no,Booking.com,2026-09-07,2026-09-09,2,85600,171200,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",141488,0
+R-1564,E. Blanco,AR,DNI,si,Booking.com,2026-08-06,2026-08-07,1,84200,84200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,69587,0
+R-1565,K. Novak,BR,Pasaporte,no,Despegar,2026-06-12,2026-06-15,3,93200,279600,si,0,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",231074,0
+R-1566,F. Almeida,ES,Pasaporte,no,Booking.com,2026-08-31,2026-09-04,4,96400,385600,si,9800,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,318678,66922
+R-1567,I. Petrov,FR,Pasaporte,no,Expedia,2026-06-22,2026-06-24,2,84100,168200,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",139008,0
+R-1568,L. Fernandez,BR,Pasaporte,si,Booking.com,2026-08-26,2026-08-29,3,85900,257700,si,9800,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 438935),212975,44725
+R-1569,B. Lindqvist,CO,Pasaporte,si,Booking.com,2026-09-01,2026-09-04,3,84100,252300,si,4500,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Colombia (BIN 521212),208512,43788
+R-1570,E. Blanco,BR,Pasaporte,no,Booking.com,2026-08-13,2026-08-17,4,105500,422000,si,9800,tarjeta,B,fuga,Tarjeta VISA emitida en Brasil (BIN 516292),348760,73240
+R-1571,M. Silva,US,Pasaporte,no,Booking.com,2026-07-22,2026-07-24,2,99100,198200,si,0,transferencia_exterior,T,riesgo_legajo,Transferencia desde banco del exterior,163802,34398
+R-1572,V. Romero,AR,DNI,si,Directo web,2026-08-11,2026-08-18,7,91400,639800,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,528760,0
+R-1573,R. Muller,UY,Pasaporte,no,Booking.com,2026-08-23,2026-08-26,3,96700,290100,si,0,transferencia_exterior,T,riesgo_legajo,Transferencia desde banco del exterior,239752,50348
+R-1574,F. Almeida,BR,Pasaporte,no,Booking.com,2026-08-21,2026-08-23,2,101200,202400,si,9800,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Brasil (BIN 516292),167273,35127
+R-1575,D. Oliveira,AR,DNI,si,Booking.com,2026-07-28,2026-07-30,2,107500,215000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,177686,0
+R-1576,B. Lindqvist,AR,DNI,si,Telefono/WhatsApp,2026-06-29,2026-06-30,1,102300,102300,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,84545,0
+R-1577,B. Lindqvist,US,Pasaporte,no,Booking.com,2026-08-22,2026-08-27,5,117200,586000,si,15200,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",484298,0
+R-1578,A. Costa,AR,DNI,si,Booking.com,2026-07-23,2026-07-24,1,100200,100200,si,22000,efectivo_ars,A,no_elegible,Huésped residente en Argentina,82810,0
+R-1579,B. Lindqvist,AR,DNI,si,Walk-in,2026-08-03,2026-08-06,3,99100,297300,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,245702,0
+R-1580,C. Rossi,CO,Pasaporte,si,Telefono/WhatsApp,2026-07-31,2026-08-01,1,115600,115600,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",95537,0
+R-1581,J. Pereira,AR,DNI,si,Booking.com,2026-06-11,2026-06-12,1,89300,89300,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,73802,0
+R-1582,N. Garcia,CL,Pasaporte,no,Booking.com,2026-08-28,2026-08-29,1,113800,113800,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",94050,0
+R-1583,T. Nakamura,UY,Pasaporte,si,Expedia,2026-08-01,2026-08-02,1,95300,95300,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",78760,0
+R-1584,K. Novak,AR,DNI,si,Directo web,2026-07-12,2026-07-14,2,110400,220800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,182479,0
+R-1585,C. Rossi,AR,DNI,si,Booking.com,2026-08-31,2026-09-04,4,94900,379600,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,313719,0
+R-1586,S. Johnson,BR,Pasaporte,no,Despegar,2026-06-15,2026-06-18,3,89700,269100,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en Brasil (BIN 438935),222397,46703
+R-1587,N. Garcia,BR,Pasaporte,no,Telefono/WhatsApp,2026-07-29,2026-08-02,4,90800,363200,si,9800,tarjeta,T,riesgo_legajo,Tarjeta MASTERCARD emitida en Brasil (BIN 438935),300165,63035
+R-1588,J. Pereira,AR,DNI,si,Directo web,2026-07-14,2026-07-18,4,106600,426400,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,352397,0
+R-1589,M. Silva,AR,DNI,si,Booking.com,2026-07-08,2026-07-12,4,87800,351200,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,290248,0
+R-1590,N. Garcia,AR,DNI,si,Directo web,2026-06-29,2026-07-01,2,98500,197000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,162810,0
+R-1591,T. Nakamura,AR,DNI,si,Despegar,2026-08-02,2026-08-04,2,109400,218800,si,22000,efectivo_ars,B,no_elegible,Huésped residente en Argentina,180826,0
+R-1592,B. Lindqvist,AR,DNI,si,Walk-in,2026-07-30,2026-08-01,2,105700,211400,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,174711,0
+R-1593,S. Johnson,AR,DNI,si,Directo web,2026-07-24,2026-07-25,1,99100,99100,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,81901,0
+R-1594,J. Pereira,CL,Pasaporte,no,Directo web,2026-08-11,2026-08-13,2,87300,174600,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",144298,0
+R-1595,G. Ferrari,CL,Pasaporte,si,Booking.com,2026-07-10,2026-07-13,3,94800,284400,si,15200,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Chile (BIN 530312),235041,49359
+R-1596,I. Petrov,US,Pasaporte,no,Directo web,2026-08-05,2026-08-06,1,88000,88000,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",72727,0
+R-1597,P. Dubois,ES,Pasaporte,no,Expedia,2026-07-17,2026-07-22,5,110100,550500,si,0,tarjeta,T,riesgo_legajo,Tarjeta VISA emitida en España (BIN 540012),454959,95541
+R-1598,E. Blanco,DE,Pasaporte,si,Directo web,2026-07-18,2026-07-19,1,104200,104200,si,15200,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Alemania (BIN 492181),86116,18084
+R-1599,S. Johnson,AR,DNI,si,Booking.com,2026-07-21,2026-07-24,3,95700,287100,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,237273,0
+R-1600,B. Lindqvist,CO,Pasaporte,no,Booking.com,2026-07-31,2026-08-02,2,96300,192600,si,0,tarjeta,T,riesgo_legajo,Tarjeta MASTERCARD emitida en Colombia (BIN 455708),159174,33426
+R-1601,D. Oliveira,AR,DNI,si,Despegar,2026-06-27,2026-07-01,4,95900,383600,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,317025,0
+R-1602,R. Muller,AR,DNI,si,Despegar,2026-08-27,2026-08-29,2,95900,191800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,158512,0
+R-1603,L. Fernandez,DE,Pasaporte,no,Walk-in,2026-09-03,2026-09-06,3,106500,319500,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",264050,0
+R-1604,M. Silva,AR,DNI,si,Directo web,2026-08-22,2026-08-23,1,99600,99600,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,82314,0
+R-1605,K. Novak,AR,DNI,si,Booking.com,2026-08-10,2026-08-11,1,102400,102400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,84628,0
+R-1606,B. Lindqvist,US,Pasaporte,si,Booking.com,2026-08-07,2026-08-09,2,111400,222800,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,184132,38668
+R-1607,E. Blanco,FR,Pasaporte,no,Booking.com,2026-06-16,2026-06-20,4,87600,350400,si,15200,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Francia (BIN 497010),289587,60813
+R-1608,P. Dubois,AR,DNI,si,Walk-in,2026-07-03,2026-07-04,1,113600,113600,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,93884,0
+R-1609,A. Costa,AR,DNI,si,Booking.com,2026-07-26,2026-07-28,2,109500,219000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,180992,0
+R-1610,S. Johnson,US,Pasaporte,si,Despegar,2026-08-04,2026-08-09,5,91700,458500,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,378926,79574
+R-1611,V. Romero,UY,Pasaporte,si,Despegar,2026-07-22,2026-07-24,2,98600,197200,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Uruguay (BIN 533012),162975,34225
+R-1612,P. Dubois,AR,DNI,si,Booking.com,2026-08-02,2026-08-03,1,100100,100100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,82727,0
+R-1613,B. Lindqvist,AR,DNI,si,Directo web,2026-07-04,2026-07-09,5,111100,555500,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,459091,0
+R-1614,C. Rossi,AR,DNI,si,Booking.com,2026-08-17,2026-08-22,5,107200,536000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,442975,0
+R-1615,H. Weber,AR,DNI,si,Booking.com,2026-07-26,2026-07-29,3,115500,346500,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,286364,0
+R-1616,T. Nakamura,AR,DNI,si,Booking.com,2026-07-03,2026-07-07,4,110200,440800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,364298,0
+R-1617,E. Blanco,UY,Pasaporte,no,Booking.com,2026-07-09,2026-07-14,5,87000,435000,si,22000,efectivo_usd,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",359504,0
+R-1618,R. Muller,AR,DNI,si,Walk-in,2026-08-17,2026-08-21,4,103800,415200,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,343140,0
+R-1619,K. Novak,AR,DNI,si,Directo web,2026-08-22,2026-08-25,3,111400,334200,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,276198,0
+R-1620,T. Nakamura,BR,Pasaporte,no,Booking.com,2026-08-29,2026-08-31,2,102300,204600,si,4500,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",169091,0
+R-1621,J. Pereira,CO,Pasaporte,si,Despegar,2026-07-27,2026-07-30,3,95300,285900,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",236281,0
+R-1622,D. Oliveira,UY,Pasaporte,no,Expedia,2026-09-05,2026-09-07,2,110200,220400,si,9800,transferencia_exterior,T,riesgo_legajo,Transferencia desde banco del exterior,182149,38251
+R-1623,R. Muller,BR,Pasaporte,no,Booking.com,2026-08-27,2026-08-28,1,100900,100900,si,22000,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,83388,17512
+R-1624,C. Rossi,ES,Pasaporte,no,Walk-in,2026-07-19,2026-07-24,5,106700,533500,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",440909,0
+R-1625,O. Ahmed,BR,Pasaporte,si,Directo web,2026-07-10,2026-07-12,2,107100,214200,si,4500,tarjeta,T,correcto,Tarjeta AMEX emitida en Brasil (BIN 438935),177025,37175
+R-1626,V. Romero,AR,DNI,si,Directo web,2026-08-10,2026-08-14,4,105100,420400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,347438,0
+R-1627,S. Johnson,AR,DNI,si,Despegar,2026-08-29,2026-08-30,1,98100,98100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,81074,0
+R-1628,K. Novak,UY,Pasaporte,si,Booking.com,2026-06-19,2026-06-22,3,97900,293700,si,0,tarjeta,B,fuga,Tarjeta AMEX emitida en Uruguay (BIN 471589),242727,50973
+R-1629,L. Fernandez,US,Pasaporte,si,Walk-in,2026-07-24,2026-07-26,2,97100,194200,si,9800,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",160496,0
+R-1630,P. Dubois,BR,Pasaporte,si,Directo web,2026-07-21,2026-07-25,4,85900,343600,si,0,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,283967,59633
+R-1631,B. Lindqvist,MX,Pasaporte,no,Booking.com,2026-08-10,2026-08-11,1,99800,99800,si,15200,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en México (BIN 491667),82479,17321
+R-1632,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-22,2026-07-24,2,99500,199000,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,164463,0
+R-1633,J. Pereira,AR,DNI,si,Directo web,2026-07-26,2026-07-31,5,103400,517000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,427273,0
+R-1634,T. Nakamura,AR,DNI,si,Directo web,2026-07-15,2026-07-20,5,98000,490000,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,404959,0
+R-1635,P. Dubois,AR,DNI,si,Despegar,2026-06-28,2026-06-29,1,102900,102900,si,4500,tarjeta,A,no_elegible,Huésped residente en Argentina,85041,0
+R-1636,P. Dubois,AR,DNI,si,Booking.com,2026-08-27,2026-08-31,4,85900,343600,si,22000,tarjeta,A,no_elegible,Huésped residente en Argentina,283967,0
+R-1637,C. Rossi,AR,DNI,si,Booking.com,2026-07-02,2026-07-04,2,105200,210400,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,173884,0
+R-1638,G. Ferrari,BR,Pasaporte,no,Directo web,2026-06-19,2026-06-20,1,106700,106700,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",88182,0
+R-1639,P. Dubois,AR,DNI,si,Walk-in,2026-08-12,2026-08-16,4,98800,395200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,326612,0
+R-1640,R. Muller,AR,DNI,si,Walk-in,2026-07-09,2026-07-11,2,96000,192000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,158678,0
+R-1641,M. Silva,AR,DNI,si,Booking.com,2026-07-08,2026-07-11,3,93500,280500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,231818,0
+R-1642,O. Ahmed,US,Pasaporte,si,Booking.com,2026-07-02,2026-07-03,1,88500,88500,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",73140,0
+R-1643,L. Fernandez,AR,DNI,si,Booking.com,2026-07-07,2026-07-11,4,93800,375200,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,310083,0
+R-1644,D. Oliveira,AR,DNI,si,Expedia,2026-06-16,2026-06-19,3,100400,301200,si,9800,transferencia_local,A,no_elegible,Huésped residente en Argentina,248926,0
+R-1645,D. Oliveira,MX,Pasaporte,no,Telefono/WhatsApp,2026-07-11,2026-07-13,2,115200,230400,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en México (BIN 491667),190413,39987
+R-1646,L. Fernandez,AR,DNI,si,Directo web,2026-06-26,2026-06-27,1,107700,107700,si,4500,efectivo_ars,A,no_elegible,Huésped residente en Argentina,89008,0
+R-1647,A. Costa,MX,Pasaporte,si,Despegar,2026-08-16,2026-08-18,2,94100,188200,si,4500,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en México (BIN 547034),155537,32663
+R-1648,O. Ahmed,BR,Pasaporte,no,Booking.com,2026-07-29,2026-08-01,3,96200,288600,si,0,tarjeta,B,fuga,Tarjeta AMEX emitida en Brasil (BIN 552031),238512,50088
+R-1649,I. Petrov,AR,DNI,si,Booking.com,2026-07-24,2026-07-27,3,107700,323100,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,267025,0
+R-1650,R. Muller,CO,Pasaporte,no,Directo web,2026-06-17,2026-06-18,1,92500,92500,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",76446,0
+R-1651,P. Dubois,US,Pasaporte,no,Booking.com,2026-07-09,2026-07-14,5,94100,470500,si,22000,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",388843,0
+R-1652,T. Nakamura,FR,Pasaporte,si,Booking.com,2026-07-11,2026-07-15,4,96200,384800,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,318017,66783
+R-1653,V. Romero,CO,Pasaporte,no,Directo web,2026-08-09,2026-08-11,2,107800,215600,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en Colombia (BIN 455708),178182,37418
+R-1654,J. Pereira,CL,Pasaporte,si,Directo web,2026-07-26,2026-07-28,2,101800,203600,si,0,tarjeta,T,correcto,Tarjeta AMEX emitida en Chile (BIN 530312),168264,35336
+R-1655,R. Muller,AR,DNI,si,Booking.com,2026-08-13,2026-08-16,3,101500,304500,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,251653,0
+R-1656,C. Rossi,AR,DNI,si,Booking.com,2026-08-03,2026-08-08,5,91600,458000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,378512,0
+R-1657,K. Novak,CO,Pasaporte,no,Telefono/WhatsApp,2026-08-26,2026-08-29,3,103800,311400,si,9800,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",257355,0
+R-1658,R. Muller,AR,DNI,si,Despegar,2026-07-21,2026-07-23,2,103500,207000,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,171074,0
+R-1659,A. Costa,CL,Pasaporte,no,Booking.com,2026-09-03,2026-09-04,1,94800,94800,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",78347,0
+R-1660,F. Almeida,ES,Pasaporte,no,Directo web,2026-07-23,2026-07-26,3,103700,311100,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en España (BIN 540012),257107,53993
+R-1661,P. Dubois,AR,DNI,si,Walk-in,2026-08-29,2026-08-31,2,106300,212600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,175702,0
+R-1662,H. Weber,AR,DNI,si,Walk-in,2026-07-24,2026-07-26,2,106500,213000,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,176033,0
+R-1663,A. Costa,BR,Pasaporte,no,Booking.com,2026-08-01,2026-08-02,1,107300,107300,si,4500,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",88678,0
+R-1664,S. Johnson,AR,DNI,si,Booking.com,2026-07-05,2026-07-06,1,101900,101900,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,84215,0
+R-1665,S. Johnson,AR,DNI,si,Directo web,2026-08-22,2026-08-25,3,110300,330900,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,273471,0
+R-1666,J. Pereira,FR,Pasaporte,no,Walk-in,2026-08-25,2026-08-27,2,103900,207800,si,0,tarjeta,B,fuga,Tarjeta AMEX emitida en Francia (BIN 513412),171736,36064
+R-1667,C. Rossi,AR,DNI,si,Expedia,2026-08-15,2026-08-18,3,93200,279600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,231074,0
+R-1668,H. Weber,BR,Pasaporte,no,Expedia,2026-08-07,2026-08-10,3,100600,301800,si,4500,transferencia_exterior,B,fuga,Transferencia desde banco del exterior,249421,52379
+R-1669,D. Oliveira,UY,Pasaporte,no,Booking.com,2026-09-04,2026-09-08,4,104000,416000,si,15200,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",343802,0
+R-1670,T. Nakamura,AR,DNI,si,Directo web,2026-06-12,2026-06-13,1,113000,113000,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,93388,0
+R-1672,O. Ahmed,CL,Pasaporte,si,Booking.com,2026-06-14,2026-06-17,3,110700,332100,si,15200,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Chile (BIN 456712),274463,57637
+R-1673,P. Dubois,AR,DNI,si,Telefono/WhatsApp,2026-07-18,2026-07-19,1,105100,105100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,86860,0
+R-1674,O. Ahmed,AR,DNI,si,Walk-in,2026-07-23,2026-07-25,2,88000,176000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,145455,0
+R-1675,K. Novak,AR,DNI,si,Booking.com,2026-09-03,2026-09-05,2,93600,187200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,154711,0
+R-1676,M. Silva,AR,DNI,si,Expedia,2026-06-25,2026-06-27,2,91300,182600,si,9800,efectivo_ars,A,no_elegible,Huésped residente en Argentina,150909,0
+R-1677,M. Silva,AR,DNI,si,Despegar,2026-09-03,2026-09-05,2,105900,211800,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,175041,0
+R-1678,B. Lindqvist,BR,Pasaporte,si,Booking.com,2026-06-29,2026-06-30,1,91800,91800,si,15200,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 516292),75868,15932
+R-1679,L. Fernandez,US,Pasaporte,no,Booking.com,2026-07-26,2026-07-29,3,101200,303600,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",250909,0
+R-1680,L. Fernandez,BR,Pasaporte,no,Expedia,2026-07-19,2026-07-20,1,109500,109500,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",90496,0
+R-1681,D. Oliveira,AR,DNI,si,Booking.com,2026-08-24,2026-08-26,2,90000,180000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,148760,0
+R-1682,N. Garcia,AR,DNI,si,Booking.com,2026-06-30,2026-07-07,7,90500,633500,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,523554,0
+R-1683,A. Costa,AR,DNI,si,Despegar,2026-06-19,2026-06-21,2,98200,196400,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,162314,0
+R-1684,R. Muller,CO,Pasaporte,si,Despegar,2026-08-29,2026-08-30,1,114100,114100,si,4500,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",94298,0
+R-1685,H. Weber,US,Pasaporte,si,Booking.com,2026-07-04,2026-07-05,1,94900,94900,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",78430,0
+R-1686,K. Novak,CL,Pasaporte,no,Directo web,2026-08-03,2026-08-04,1,85100,85100,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",70331,0
+R-1687,T. Nakamura,US,Pasaporte,no,Directo web,2026-06-11,2026-06-12,1,96600,96600,si,9800,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",79835,0
+R-1688,D. Oliveira,AR,DNI,si,Directo web,2026-08-10,2026-08-15,5,102800,514000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,424793,0
+R-1689,F. Almeida,AR,DNI,si,Telefono/WhatsApp,2026-06-13,2026-06-15,2,114500,229000,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,189256,0
+R-1690,S. Johnson,AR,DNI,si,Walk-in,2026-06-16,2026-06-18,2,92400,184800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,152727,0
+R-1691,M. Silva,AR,DNI,si,Directo web,2026-08-22,2026-08-23,1,108000,108000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,89256,0
+R-1692,L. Fernandez,CO,Pasaporte,si,Walk-in,2026-08-07,2026-08-09,2,109000,218000,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",180165,0
+R-1693,J. Pereira,AR,DNI,si,Booking.com,2026-06-15,2026-06-19,4,97900,391600,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,323636,0
+R-1694,B. Lindqvist,US,Pasaporte,no,Telefono/WhatsApp,2026-06-24,2026-06-25,1,93800,93800,si,4500,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",77521,0
+R-1695,J. Pereira,BR,Pasaporte,si,Booking.com,2026-08-10,2026-08-15,5,95800,479000,si,22000,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Brasil (BIN 516292),395868,83132
+R-1696,E. Blanco,FR,Pasaporte,no,Directo web,2026-06-30,2026-07-04,4,95700,382800,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",316364,0
+R-1697,B. Lindqvist,BR,Pasaporte,si,Directo web,2026-07-29,2026-07-31,2,88900,177800,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",146942,0
+R-1698,P. Dubois,AR,DNI,si,Booking.com,2026-09-02,2026-09-07,5,101500,507500,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,419421,0
+R-1699,S. Johnson,UY,Pasaporte,no,Booking.com,2026-08-22,2026-08-24,2,100400,200800,si,0,efectivo_usd,A,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",165950,0
+R-1700,J. Pereira,BR,Pasaporte,no,Booking.com,2026-06-16,2026-06-19,3,91600,274800,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",227107,0
+R-1701,J. Pereira,US,Pasaporte,si,Booking.com,2026-07-12,2026-07-15,3,104700,314100,si,9800,tarjeta,T,correcto,Tarjeta AMEX emitida en Estados Unidos (BIN 542418),259587,54513
+R-1702,K. Novak,AR,DNI,si,Booking.com,2026-08-13,2026-08-15,2,87300,174600,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,144298,0
+R-1703,S. Johnson,BR,Pasaporte,no,Directo web,2026-08-13,2026-08-15,2,101000,202000,si,22000,tarjeta,B,fuga,Tarjeta AMEX emitida en Brasil (BIN 438935),166942,35058
+R-1704,K. Novak,DE,Pasaporte,si,Despegar,2026-07-19,2026-07-21,2,112200,224400,si,4500,tarjeta,T,correcto,Tarjeta AMEX emitida en Alemania (BIN 492181),185455,38945
+R-1705,I. Petrov,MX,Pasaporte,si,Telefono/WhatsApp,2026-07-27,2026-07-29,2,104800,209600,si,22000,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",173223,0
+R-1706,A. Costa,AR,DNI,si,Directo web,2026-08-20,2026-08-22,2,86300,172600,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,142645,0
+R-1707,V. Romero,FR,Pasaporte,si,Directo web,2026-08-23,2026-08-28,5,113100,565500,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en Francia (BIN 513412),467355,98145
+R-1708,D. Oliveira,BR,Pasaporte,no,Booking.com,2026-06-13,2026-06-15,2,101100,202200,si,0,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en Brasil (BIN 516292),167107,35093
+R-1709,F. Almeida,FR,Pasaporte,no,Despegar,2026-07-17,2026-07-22,5,110200,551000,si,9800,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en Francia (BIN 497010),455372,95628
+R-1710,B. Lindqvist,AR,DNI,si,Booking.com,2026-06-12,2026-06-15,3,103600,310800,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,256860,0
+R-1711,B. Lindqvist,AR,DNI,si,Booking.com,2026-08-22,2026-08-23,1,102500,102500,si,15200,transferencia_local,A,no_elegible,Huésped residente en Argentina,84711,0
+R-1712,J. Pereira,FR,Pasaporte,no,Despegar,2026-08-01,2026-08-04,3,113100,339300,si,15200,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",280413,0
+R-1713,D. Oliveira,UY,Pasaporte,si,Booking.com,2026-08-26,2026-08-29,3,91500,274500,si,22000,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Uruguay (BIN 471589),226860,47640
+R-1714,P. Dubois,ES,Pasaporte,si,Telefono/WhatsApp,2026-07-18,2026-07-21,3,97500,292500,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en España (BIN 454181),241736,50764
+R-1715,A. Costa,AR,DNI,si,Directo web,2026-08-25,2026-09-01,7,97100,679700,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,561736,0
+R-1716,S. Johnson,AR,DNI,si,Booking.com,2026-06-24,2026-06-27,3,107500,322500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,266529,0
+R-1717,D. Oliveira,AR,DNI,si,Directo web,2026-07-05,2026-07-06,1,107400,107400,si,0,tarjeta,A,no_elegible,Huésped residente en Argentina,88760,0
+R-1718,C. Rossi,AR,DNI,si,Directo web,2026-06-22,2026-06-25,3,93400,280200,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,231570,0
+R-1719,H. Weber,CL,Pasaporte,si,Directo web,2026-08-17,2026-08-22,5,108000,540000,si,0,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",446281,0
+R-1720,E. Blanco,AR,DNI,si,Booking.com,2026-07-24,2026-07-28,4,101900,407600,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,336860,0
+R-1721,O. Ahmed,AR,DNI,si,Directo web,2026-09-06,2026-09-10,4,94700,378800,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,313058,0
+R-1722,L. Fernandez,US,Pasaporte,si,Booking.com,2026-07-03,2026-07-05,2,100300,200600,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",165785,0
+R-1723,E. Blanco,DE,Pasaporte,si,Booking.com,2026-06-14,2026-06-15,1,106400,106400,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",87934,0
+R-1724,H. Weber,US,Pasaporte,no,Walk-in,2026-08-26,2026-08-27,1,97300,97300,si,4500,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",80413,0
+R-1725,J. Pereira,AR,DNI,si,Booking.com,2026-06-28,2026-07-02,4,108300,433200,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,358017,0
+R-1726,R. Muller,AR,DNI,si,Directo web,2026-06-27,2026-06-30,3,117500,352500,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,291322,0
+R-1727,G. Ferrari,AR,DNI,si,Booking.com,2026-08-05,2026-08-10,5,86200,431000,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,356198,0
+R-1728,G. Ferrari,ES,Pasaporte,no,Telefono/WhatsApp,2026-08-02,2026-08-04,2,115000,230000,si,0,tarjeta,A,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",190083,0
+R-1729,C. Rossi,US,Pasaporte,si,Directo web,2026-08-21,2026-08-23,2,107900,215800,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",178347,0
+R-1730,G. Ferrari,BR,Pasaporte,si,Directo web,2026-08-06,2026-08-08,2,105700,211400,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en Brasil (BIN 438935),174711,36689
+R-1731,I. Petrov,AR,DNI,si,Directo web,2026-08-23,2026-08-25,2,110100,220200,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,181983,0
+R-1732,B. Lindqvist,MX,Pasaporte,no,Telefono/WhatsApp,2026-07-21,2026-07-24,3,105100,315300,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",260579,0
+R-1733,N. Garcia,AR,DNI,si,Booking.com,2026-07-19,2026-07-20,1,105200,105200,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,86942,0
+R-1734,G. Ferrari,AR,DNI,si,Booking.com,2026-08-23,2026-08-27,4,93900,375600,si,15200,efectivo_ars,B,no_elegible,Huésped residente en Argentina,310413,0
+R-1735,B. Lindqvist,AR,DNI,si,Telefono/WhatsApp,2026-07-20,2026-07-23,3,101800,305400,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,252397,0
+R-1736,N. Garcia,FR,Pasaporte,si,Expedia,2026-08-05,2026-08-09,4,105500,422000,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",348760,0
+R-1737,T. Nakamura,CO,Pasaporte,no,Walk-in,2026-07-10,2026-07-12,2,116300,232600,si,0,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en Colombia (BIN 521212),192231,40369
+R-1738,M. Silva,AR,DNI,si,Telefono/WhatsApp,2026-08-22,2026-08-25,3,107600,322800,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,266777,0
+R-1739,R. Muller,AR,DNI,si,Booking.com,2026-08-25,2026-08-27,2,90600,181200,si,9800,efectivo_ars,B,no_elegible,Huésped residente en Argentina,149752,0
+R-1741,N. Garcia,AR,DNI,si,Telefono/WhatsApp,2026-07-20,2026-07-24,4,87700,350800,si,0,transferencia_local,B,no_elegible,Huésped residente en Argentina,289917,0
+R-1742,V. Romero,US,Pasaporte,si,Telefono/WhatsApp,2026-07-28,2026-07-30,2,103700,207400,si,22000,tarjeta,T,correcto,Tarjeta VISA emitida en Estados Unidos (BIN 414720),171405,35995
+R-1743,N. Garcia,AR,DNI,si,Despegar,2026-06-11,2026-06-12,1,85400,85400,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,70579,0
+R-1744,B. Lindqvist,AR,DNI,si,Booking.com,2026-07-21,2026-07-25,4,102500,410000,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,338843,0
+R-1745,D. Oliveira,BR,Pasaporte,no,Expedia,2026-08-21,2026-08-24,3,96600,289800,si,9800,tarjeta,T,riesgo_legajo,Tarjeta AMEX emitida en Brasil (BIN 516292),239504,50296
+R-1746,K. Novak,MX,Pasaporte,no,Walk-in,2026-07-02,2026-07-07,5,100400,502000,si,4500,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",414876,0
+R-1747,L. Fernandez,ES,Pasaporte,si,Directo web,2026-07-11,2026-07-14,3,99100,297300,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",245702,0
+R-1748,B. Lindqvist,US,Pasaporte,si,Booking.com,2026-08-09,2026-08-11,2,113300,226600,si,22000,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 542418),187273,39327
+R-1749,H. Weber,AR,DNI,si,Booking.com,2026-07-23,2026-07-25,2,90900,181800,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,150248,0
+R-1750,J. Pereira,AR,DNI,si,Directo web,2026-08-16,2026-08-18,2,104400,208800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,172562,0
+R-1751,G. Ferrari,BR,Pasaporte,si,Directo web,2026-07-16,2026-07-20,4,86100,344400,si,9800,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",284628,0
+R-1752,G. Ferrari,AR,DNI,si,Expedia,2026-06-16,2026-06-23,7,92600,648200,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,535702,0
+R-1753,F. Almeida,AR,DNI,si,Directo web,2026-08-22,2026-08-23,1,106500,106500,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,88017,0
+R-1754,C. Rossi,AR,DNI,si,Booking.com,2026-09-04,2026-09-06,2,106000,212000,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,175207,0
+R-1755,D. Oliveira,AR,DNI,si,Walk-in,2026-07-10,2026-07-17,7,106800,747600,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,617851,0
+R-1756,F. Almeida,AR,DNI,si,Telefono/WhatsApp,2026-08-31,2026-09-03,3,84700,254100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,210000,0
+R-1757,C. Rossi,AR,DNI,si,Booking.com,2026-07-21,2026-07-24,3,104700,314100,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,259587,0
+R-1758,I. Petrov,AR,DNI,si,Booking.com,2026-08-15,2026-08-17,2,110700,221400,si,15200,tarjeta,B,no_elegible,Huésped residente en Argentina,182975,0
+R-1759,C. Rossi,UY,Pasaporte,si,Booking.com,2026-08-23,2026-08-25,2,100600,201200,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",166281,0
+R-1760,C. Rossi,AR,DNI,si,Booking.com,2026-07-23,2026-07-24,1,107100,107100,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,88512,0
+R-1761,G. Ferrari,US,Pasaporte,no,Walk-in,2026-07-10,2026-07-17,7,114000,798000,si,0,tarjeta,B,fuga,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 379141),659504,138496
+R-1762,T. Nakamura,DE,Pasaporte,no,Booking.com,2026-08-23,2026-08-26,3,111600,334800,si,4500,tarjeta,B,fuga,Tarjeta AMEX emitida en Alemania (BIN 545612),276694,58106
+R-1763,C. Rossi,AR,DNI,si,Booking.com,2026-07-07,2026-07-10,3,96700,290100,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,239752,0
+R-1764,J. Pereira,ES,Pasaporte,si,Booking.com,2026-08-09,2026-08-12,3,94600,283800,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",234545,0
+R-1765,M. Silva,AR,DNI,si,Booking.com,2026-06-20,2026-06-23,3,99300,297900,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,246198,0
+R-1766,R. Muller,AR,DNI,si,Telefono/WhatsApp,2026-07-21,2026-07-25,4,97700,390800,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,322975,0
+R-1767,D. Oliveira,US,Pasaporte,si,Telefono/WhatsApp,2026-08-14,2026-08-21,7,116700,816900,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 542418),675124,141776
+R-1768,E. Blanco,US,Pasaporte,no,Despegar,2026-08-30,2026-09-01,2,96700,193400,si,22000,tarjeta,B,fuga,Tarjeta AMEX emitida en Estados Unidos (BIN 379141),159835,33565
+R-1769,P. Dubois,BR,Pasaporte,si,Telefono/WhatsApp,2026-09-07,2026-09-08,1,106500,106500,si,0,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",88017,0
+R-1770,M. Silva,BR,Pasaporte,si,Telefono/WhatsApp,2026-07-11,2026-07-13,2,103500,207000,si,15200,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",171074,0
+R-1771,R. Muller,AR,DNI,si,Booking.com,2026-09-02,2026-09-03,1,105000,105000,si,22000,tarjeta,A,no_elegible,Huésped residente en Argentina,86777,0
+R-1772,L. Fernandez,AR,DNI,si,Despegar,2026-06-25,2026-06-27,2,89100,178200,si,4500,tarjeta,B,no_elegible,Huésped residente en Argentina,147273,0
+R-1773,J. Pereira,MX,Pasaporte,no,Directo web,2026-06-26,2026-06-28,2,102100,204200,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",168760,0
+R-1774,V. Romero,BR,Pasaporte,si,Booking.com,2026-07-08,2026-07-12,4,99100,396400,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",327603,0
+R-1775,B. Lindqvist,AR,DNI,si,Despegar,2026-07-10,2026-07-15,5,115900,579500,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,478926,0
+R-1776,P. Dubois,AR,DNI,si,Booking.com,2026-07-05,2026-07-10,5,102000,510000,si,9800,tarjeta,A,no_elegible,Huésped residente en Argentina,421488,0
+R-1777,N. Garcia,BR,Pasaporte,no,Expedia,2026-08-15,2026-08-17,2,111100,222200,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",183636,0
+R-1778,N. Garcia,AR,DNI,si,Booking.com,2026-06-18,2026-06-25,7,95400,667800,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,551901,0
+R-1779,I. Petrov,CL,Pasaporte,no,Directo web,2026-07-04,2026-07-05,1,102700,102700,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",84876,0
+R-1780,R. Muller,FR,Pasaporte,no,Booking.com,2026-08-23,2026-08-24,1,108700,108700,si,22000,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",89835,0
+R-1781,R. Muller,MX,Pasaporte,si,Directo web,2026-06-16,2026-06-19,3,87800,263400,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en México (BIN 547034),217686,45714
+R-1782,D. Oliveira,AR,DNI,si,Booking.com,2026-07-08,2026-07-10,2,93700,187400,si,22000,tarjeta,B,no_elegible,Huésped residente en Argentina,154876,0
+R-1783,M. Silva,BR,Pasaporte,si,Directo web,2026-07-18,2026-07-22,4,108500,434000,si,4500,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Brasil (BIN 552031),358678,75322
+R-1784,G. Ferrari,UY,Pasaporte,no,Booking.com,2026-08-31,2026-09-02,2,87000,174000,si,0,efectivo_ars,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo ars)",143802,0
+R-1785,V. Romero,US,Pasaporte,si,Telefono/WhatsApp,2026-07-09,2026-07-13,4,94300,377200,si,9800,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Estados Unidos (BIN 379141),311736,65464
+R-1786,I. Petrov,US,Pasaporte,si,Booking.com,2026-08-28,2026-08-29,1,94200,94200,si,22000,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,77851,16349
+R-1787,G. Ferrari,BR,Pasaporte,si,Directo web,2026-09-04,2026-09-06,2,105800,211600,si,0,tarjeta,T,correcto,Tarjeta VISA emitida en Brasil (BIN 552031),174876,36724
+R-1788,C. Rossi,AR,DNI,si,Despegar,2026-08-28,2026-08-29,1,111100,111100,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,91818,0
+R-1789,N. Garcia,AR,DNI,si,Directo web,2026-06-24,2026-06-27,3,95600,286800,si,22000,transferencia_local,B,no_elegible,Huésped residente en Argentina,237025,0
+R-1790,S. Johnson,AR,DNI,si,Telefono/WhatsApp,2026-06-13,2026-06-15,2,110100,220200,si,9800,tarjeta,B,no_elegible,Huésped residente en Argentina,181983,0
+R-1791,I. Petrov,UY,Pasaporte,no,Telefono/WhatsApp,2026-09-07,2026-09-10,3,91600,274800,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en Uruguay (BIN 471589),227107,47693
+R-1792,V. Romero,AR,DNI,si,Booking.com,2026-06-13,2026-06-16,3,111100,333300,si,4500,transferencia_local,B,no_elegible,Huésped residente en Argentina,275455,0
+R-1793,K. Novak,CL,Pasaporte,si,Directo web,2026-07-29,2026-08-01,3,100500,301500,si,9800,tarjeta,T,correcto,Tarjeta VISA emitida en Chile (BIN 530312),249174,52326
+R-1794,C. Rossi,US,Pasaporte,no,Walk-in,2026-08-23,2026-08-28,5,115400,577000,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",476860,0
+R-1795,F. Almeida,AR,DNI,si,Directo web,2026-07-27,2026-07-28,1,84900,84900,si,4500,efectivo_ars,B,no_elegible,Huésped residente en Argentina,70165,0
+R-1796,G. Ferrari,AR,DNI,si,Telefono/WhatsApp,2026-08-28,2026-09-04,7,93900,657300,si,0,tarjeta,B,no_elegible,Huésped residente en Argentina,543223,0
+R-1797,K. Novak,AR,DNI,si,Booking.com,2026-07-14,2026-07-15,1,83800,83800,si,0,efectivo_ars,B,no_elegible,Huésped residente en Argentina,69256,0
+R-1798,C. Rossi,BR,Pasaporte,si,Booking.com,2026-08-28,2026-08-29,1,111000,111000,si,0,transferencia_exterior,T,correcto,Transferencia desde banco del exterior,91736,19264
+R-1799,G. Ferrari,ES,Pasaporte,no,Booking.com,2026-09-01,2026-09-02,1,91600,91600,si,0,tarjeta,B,no_elegible,"No residente, pero pagó con tarjeta emitida en Argentina (BIN local): el medio de pago no habilita la exención",75702,0
+R-1800,C. Rossi,AR,DNI,si,Telefono/WhatsApp,2026-06-11,2026-06-12,1,96300,96300,si,9800,transferencia_local,B,no_elegible,Huésped residente en Argentina,79587,0
+R-1801,V. Romero,MX,Pasaporte,no,Booking.com,2026-06-26,2026-06-30,4,103300,413200,si,0,tarjeta,B,fuga,Tarjeta VISA emitida en México (BIN 491667),341488,71712
+R-1802,G. Ferrari,ES,Pasaporte,si,Telefono/WhatsApp,2026-09-07,2026-09-09,2,101000,202000,si,4500,efectivo_usd,B,no_elegible,"No residente, pero pagó por un medio no habilitante (efectivo usd)",166942,0
+R-1803,T. Nakamura,CO,Pasaporte,si,Booking.com,2026-07-25,2026-07-30,5,113100,565500,si,0,tarjeta,T,correcto,Tarjeta MASTERCARD emitida en Colombia (BIN 521212),467355,98145

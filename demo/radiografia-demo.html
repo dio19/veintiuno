@@ -1,0 +1,485 @@
+<title>Radiografía del 21%</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F1EEEC; --surface:#FBFAF9; --surface-2:#F6F3F1;
+  --ink:#1A1614; --ink-2:#574C48; --ink-3:#8A7D77;
+  --line:#DFD8D4; --line-2:#EAE4E0;
+  --accent:#A8322A;
+  --fuga:#A8322A; --riesgo:#B5820C; --correcto:#1D6FA3;
+  --fuga-soft:#F2E2DF; --riesgo-soft:#F4EBD8; --correcto-soft:#DEEAF3;
+  --grid:#DFD8D4;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#15110F; --surface:#1E1917; --surface-2:#241E1B;
+    --ink:#F3EEEA; --ink-2:#BEB1AB; --ink-3:#8D807A;
+    --line:#352D29; --line-2:#2A2320;
+    --accent:#D2565F;
+    --fuga:#D2565F; --riesgo:#9E9622; --correcto:#4093C6;
+    --fuga-soft:#33201F; --riesgo-soft:#2A2716; --correcto-soft:#17262F;
+    --grid:#332B27;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15110F; --surface:#1E1917; --surface-2:#241E1B;
+  --ink:#F3EEEA; --ink-2:#BEB1AB; --ink-3:#8D807A;
+  --line:#352D29; --line-2:#2A2320;
+  --accent:#D2565F;
+  --fuga:#D2565F; --riesgo:#9E9622; --correcto:#4093C6;
+  --fuga-soft:#33201F; --riesgo-soft:#2A2716; --correcto-soft:#17262F;
+  --grid:#332B27;
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.6;
+  padding-block:0; padding-left:20px; padding-right:20px;
+  -webkit-font-smoothing:antialiased;
+}
+.doc{max-width:820px;margin:0 auto;padding-block:0 72px}
+.col{max-width:680px}
+
+/* ---------- encabezado ---------- */
+header{
+  padding-block:44px 30px; margin-bottom:34px;
+  border-bottom:2px solid var(--ink);
+  display:flex; gap:24px; align-items:flex-start; flex-wrap:wrap;
+}
+.head-main{flex:1 1 340px;min-width:0}
+.brand{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--accent); font-weight:600; margin:0 0 14px;
+}
+h1{
+  font-family:"IBM Plex Serif",Georgia,serif;
+  font-size:clamp(34px,6.2vw,52px); line-height:1.02; font-weight:600;
+  letter-spacing:-.02em; margin:0 0 12px; text-wrap:balance;
+}
+.subject{font-size:17px;color:var(--ink-2);margin:0;max-width:44ch}
+.stamp{
+  flex:0 0 auto; transform:rotate(-6deg);
+  border:2px solid var(--accent); color:var(--accent);
+  border-radius:3px; padding:9px 13px 8px; text-align:center;
+  font-family:"IBM Plex Mono",monospace; line-height:1.25;
+}
+.stamp b{display:block;font-size:14px;letter-spacing:.16em;font-weight:600}
+.stamp span{display:block;font-size:9.5px;letter-spacing:.08em;color:var(--accent);opacity:.85}
+
+.meta{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:2px 26px; margin:26px 0 0; padding:0; list-style:none;
+}
+.meta div{padding:9px 0;border-top:1px solid var(--line)}
+.meta dt{
+  font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.11em;
+  text-transform:uppercase; color:var(--ink-3); margin:0 0 3px;
+}
+.meta dd{margin:0;font-size:14.5px;font-weight:500;font-variant-numeric:tabular-nums}
+
+/* ---------- avisos ---------- */
+.nota{
+  background:var(--surface-2); border-left:3px solid var(--ink-3);
+  padding:14px 18px; font-size:13.5px; color:var(--ink-2); margin:0 0 40px;
+}
+.nota strong{color:var(--ink)}
+
+/* ---------- secciones ---------- */
+section{margin-bottom:52px}
+h2{
+  font-family:"IBM Plex Serif",Georgia,serif;
+  font-size:26px; font-weight:600; letter-spacing:-.01em;
+  margin:0 0 6px; text-wrap:balance;
+}
+.deck{color:var(--ink-2);margin:0 0 24px;max-width:62ch}
+h3{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:600;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3);
+  margin:0 0 12px;
+}
+p{margin:0 0 16px;max-width:65ch}
+strong{font-weight:600}
+
+/* ---------- número principal ---------- */
+.headline{
+  background:var(--surface); border:1px solid var(--line);
+  border-top:3px solid var(--fuga);
+  padding:30px 30px 26px; margin-bottom:16px;
+}
+.headline .cap{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink-3);margin:0 0 8px;
+}
+.big{
+  font-family:"IBM Plex Mono",monospace; font-weight:600;
+  font-size:clamp(38px,8vw,64px); line-height:1; letter-spacing:-.035em;
+  color:var(--fuga); font-variant-numeric:tabular-nums; margin:0;
+}
+.big small{font-size:.42em;letter-spacing:.02em;font-weight:500;margin-right:.28em;vertical-align:.28em}
+.headline .sub{margin:12px 0 0;font-size:15px;color:var(--ink-2);max-width:56ch}
+
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.tile{background:var(--surface);border:1px solid var(--line);padding:18px 20px}
+.tile .cap{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin:0 0 7px}
+.tile .num{font-family:"IBM Plex Mono",monospace;font-size:27px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin:0;line-height:1.1}
+.tile .num small{font-size:.5em;font-weight:500;margin-right:.25em;vertical-align:.2em;color:var(--ink-2)}
+.tile p{font-size:13px;color:var(--ink-2);margin:7px 0 0;max-width:none}
+
+/* ---------- embudo ---------- */
+.funnel{list-style:none;margin:0 0 26px;padding:0;border-top:1px solid var(--line)}
+.funnel li{
+  display:flex;gap:16px;align-items:baseline;
+  padding:12px 0;border-bottom:1px solid var(--line-2);
+}
+.funnel .n{
+  font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:19px;
+  font-variant-numeric:tabular-nums;min-width:74px;text-align:right;letter-spacing:-.02em;
+}
+.funnel .t{flex:1;font-size:14.5px;color:var(--ink-2)}
+.funnel .t b{color:var(--ink);font-weight:600}
+.funnel li.out .n{color:var(--ink-3)}
+.funnel li.hit .n{color:var(--fuga)}
+
+/* ---------- gráficos ---------- */
+figure{margin:0 0 8px;background:var(--surface);border:1px solid var(--line);padding:22px 20px 16px}
+figcaption{font-size:12.5px;color:var(--ink-3);margin-top:12px;font-family:"IBM Plex Mono",monospace;line-height:1.5}
+.chart-wrap{overflow-x:auto}
+svg{display:block;width:100%;height:auto;min-width:440px}
+.svg-label{font-family:"IBM Plex Sans",sans-serif;font-size:12.5px;fill:var(--ink-2)}
+.svg-val{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;fill:var(--ink);font-variant-numeric:tabular-nums}
+.svg-mut{font-family:"IBM Plex Mono",monospace;font-size:11px;fill:var(--ink-3)}
+.bar{transition:opacity .12s}
+.bar:hover{opacity:.78;cursor:default}
+
+.legend{display:flex;flex-wrap:wrap;gap:16px;margin:14px 0 0;padding:0;list-style:none}
+.legend li{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ink-2)}
+.swatch{width:11px;height:11px;border-radius:2px;flex:0 0 auto}
+
+/* ---------- tabla evidencia ---------- */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:13px}
+th{
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:600;
+  text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);white-space:nowrap;
+}
+td{padding:11px 12px;border-bottom:1px solid var(--line-2);vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+td.num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-weight:500}
+td.mono{font-family:"IBM Plex Mono",monospace;font-size:12px;white-space:nowrap}
+.pill{
+  display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10px;
+  letter-spacing:.07em;text-transform:uppercase;font-weight:600;
+  padding:3px 7px;border-radius:3px;white-space:nowrap;
+}
+.p-fuga{background:var(--fuga-soft);color:var(--fuga)}
+.p-riesgo{background:var(--riesgo-soft);color:var(--riesgo)}
+.p-ok{background:var(--correcto-soft);color:var(--correcto)}
+.p-no{background:var(--surface-2);color:var(--ink-3)}
+.why{font-size:12.5px;color:var(--ink-2);line-height:1.45}
+
+/* ---------- cálculo tarifa ---------- */
+.calc{background:var(--surface);border:1px solid var(--line);padding:24px}
+.calc-rows{display:grid;gap:0;margin:0 0 16px}
+.calc-row{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line-2);align-items:baseline}
+.calc-row:last-of-type{border-bottom:0}
+.calc-row span{font-size:14.5px;color:var(--ink-2)}
+.calc-row b{font-family:"IBM Plex Mono",monospace;font-size:16px;font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.calc-out{background:var(--fuga-soft);padding:14px 16px;margin-top:4px}
+.calc-out .calc-row{border:0;padding:0}
+.calc-out b{color:var(--fuga);font-size:19px}
+.rule{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-2);background:var(--surface-2);padding:12px 14px;margin-top:16px;border-left:3px solid var(--accent)}
+
+/* ---------- pasos ---------- */
+.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+.steps li{counter-increment:s;background:var(--surface);padding:16px 20px 16px 56px;position:relative}
+.steps li::before{
+  content:counter(s);position:absolute;left:20px;top:16px;
+  font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:600;
+  color:var(--accent);
+}
+.steps b{display:block;font-size:15px;margin-bottom:3px}
+.steps span{font-size:13.5px;color:var(--ink-2)}
+
+footer{border-top:1px solid var(--line);padding-top:24px;font-size:12.5px;color:var(--ink-3);line-height:1.65}
+footer p{max-width:70ch;margin:0 0 10px}
+footer b{color:var(--ink-2);font-weight:600}
+a{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="doc">
+
+<header>
+  <div class="head-main">
+    <p class="brand">Veintiuno · diagnóstico</p>
+    <h1>Radiografía del 21%</h1>
+    <p class="subject">Exención de IVA a huéspedes no residentes: qué correspondía, qué se facturó y qué quedó sin capturar en los últimos 90 días.</p>
+  </div>
+  <div class="stamp"><b>MUESTRA</b><span>datos ficticios</span></div>
+
+  <dl class="meta">
+    <div><dt>Establecimiento</dt><dd>Demo Recoleta 42</dd></div>
+    <div><dt>Ventana analizada</dt><dd>11 jun – 10 sep 2026</dd></div>
+    <div><dt>Reservas procesadas</dt><dd>800</dd></div>
+    <div><dt>Noches-habitación</dt><dd>2.196</dd></div>
+    <div><dt>Marco normativo</dt><dd>RG Conj. 3971/2016</dd></div>
+    <div><dt>Emitido</dt><dd>10 sep 2026</dd></div>
+  </dl>
+</header>
+
+<p class="nota"><strong>Esto es una muestra.</strong> «Demo Recoleta 42» no existe: las 800 reservas se generaron sintéticamente para mostrar cómo trabaja el motor sin exponer datos de un hotel real. Con el export de un hotel de verdad, este mismo documento sale en 48 horas con sus números.</p>
+
+<section>
+  <h2>El número</h2>
+  <p class="deck">De las 800 reservas del trimestre, 172 cumplían las tres condiciones del régimen. En 75 de ellas se emitió un comprobante con IVA.</p>
+
+  <div class="headline">
+    <p class="cap">IVA no capturado · 90 días</p>
+    <p class="big"><small>ARS</small>3.819.535</p>
+    <p class="sub">Son 75 estadías sobre 172 elegibles: una tasa de fuga del <strong>43,6%</strong>. Al ritmo del trimestre, <strong>ARS 1.259.187 por mes</strong> y <strong>ARS 15.320.113 al año</strong>.</p>
+  </div>
+
+  <div class="pair">
+    <div class="tile">
+      <p class="cap">IVA en juego · 90 días</p>
+      <p class="num"><small>ARS</small>8.339.703</p>
+      <p>El total exceptuable sobre las 172 estadías elegibles. Es el tamaño de la palanca, no de la pérdida.</p>
+    </div>
+    <div class="tile">
+      <p class="cap">En riesgo por legajo</p>
+      <p class="num"><small>ARS</small>864.852</p>
+      <p>18 estadías con factura T emitida pero sin la documentación del huésped archivada. La exención se tomó; la prueba no está.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>De dónde sale</h2>
+  <p class="deck">El régimen exige tres condiciones simultáneas. Cada filtro descarta casos, y descartar bien es la mitad del trabajo: si contáramos como elegible a todo extranjero, el número sería el doble y no resistiría una fiscalización.</p>
+
+  <ol class="funnel">
+    <li><span class="n">800</span><span class="t">reservas en la ventana de 90 días</span></li>
+    <li class="out"><span class="n">−453</span><span class="t">huéspedes con residencia en Argentina — <b>fuera del régimen</b></span></li>
+    <li class="out"><span class="n">−96</span><span class="t">no residentes que pagaron con <b>tarjeta emitida en Argentina</b> (BIN local): el medio de pago no habilita</span></li>
+    <li class="out"><span class="n">−79</span><span class="t">no residentes que pagaron en efectivo o por transferencia local — <b>tampoco habilita</b></span></li>
+    <li><span class="n">172</span><span class="t"><b>estadías elegibles</b> — 21,5% de las reservas del trimestre</span></li>
+    <li class="hit"><span class="n">75</span><span class="t">de esas 172 se facturaron con IVA. <b>Ahí está la fuga.</b></span></li>
+  </ol>
+
+  <figure>
+    <h3>Las 172 estadías elegibles, por cómo se facturaron</h3>
+    <div class="chart-wrap">
+      <svg viewBox="0 0 700 96" role="img" aria-label="79 estadías facturadas correctamente, 18 con factura T sin legajo completo y 75 con IVA cobrado de más">
+        <rect class="bar" x="20" y="14" width="301" height="30" fill="var(--correcto)" rx="2"><title>Correctas: 79 estadías · ARS 3.655.316 exceptuados</title></rect>
+        <rect class="bar" x="323" y="14" width="69" height="30" fill="var(--riesgo)" rx="2"><title>Factura T sin legajo completo: 18 estadías · ARS 864.852</title></rect>
+        <rect class="bar" x="394" y="14" width="286" height="30" fill="var(--fuga)" rx="2"><title>Fuga: 75 estadías · ARS 3.819.535</title></rect>
+        <text class="svg-val" x="20" y="64">79</text>
+        <text class="svg-label" x="42" y="64">correctas</text>
+        <text class="svg-val" x="323" y="64">18</text>
+        <text class="svg-label" x="345" y="64">sin legajo</text>
+        <text class="svg-val" x="394" y="64">75</text>
+        <text class="svg-label" x="416" y="64">con fuga</text>
+        <text class="svg-mut" x="20" y="84">ARS 3.655.316</text>
+        <text class="svg-mut" x="323" y="84">ARS 864.852</text>
+        <text class="svg-mut" x="394" y="84">ARS 3.819.535</text>
+      </svg>
+    </div>
+    <ul class="legend">
+      <li><span class="swatch" style="background:var(--correcto)"></span>Factura T con legajo completo</li>
+      <li><span class="swatch" style="background:var(--riesgo)"></span>Factura T sin documentación archivada</li>
+      <li><span class="swatch" style="background:var(--fuga)"></span>Comprobante con IVA sobre estadía exenta</li>
+    </ul>
+  </figure>
+</section>
+
+<section>
+  <h2>Dónde se pierde</h2>
+  <p class="deck">La fuga no está repartida al azar. Se concentra donde el dato del huésped llega incompleto al momento de facturar.</p>
+
+  <figure>
+    <h3>IVA no capturado, por canal de reserva · 90 días</h3>
+    <div class="chart-wrap">
+      <svg viewBox="0 0 700 268" role="img" aria-label="Fuga por canal: Booking.com 1.665.698 pesos, Directo web 737.637, Despegar 461.965, Teléfono y WhatsApp 358.858, Walk-in 353.824, Expedia 241.553">
+        <g>
+          <text class="svg-label" x="0" y="26">Booking.com</text>
+          <rect class="bar" x="150" y="12" width="420" height="22" fill="var(--fuga)" rx="2"><title>Booking.com · 31 de 68 estadías elegibles con fuga · ARS 1.665.698</title></rect>
+          <text class="svg-val" x="578" y="27">1.665.698</text>
+        </g>
+        <g>
+          <text class="svg-label" x="0" y="66">Directo web</text>
+          <rect class="bar" x="150" y="52" width="186" height="22" fill="var(--fuga)" rx="2"><title>Directo web · 16 de 35 estadías elegibles con fuga · ARS 737.637</title></rect>
+          <text class="svg-val" x="344" y="67">737.637</text>
+        </g>
+        <g>
+          <text class="svg-label" x="0" y="106">Despegar</text>
+          <rect class="bar" x="150" y="92" width="116" height="22" fill="var(--fuga)" rx="2"><title>Despegar · 10 de 20 estadías elegibles con fuga · ARS 461.965</title></rect>
+          <text class="svg-val" x="274" y="107">461.965</text>
+        </g>
+        <g>
+          <text class="svg-label" x="0" y="146">Teléfono / WhatsApp</text>
+          <rect class="bar" x="150" y="132" width="90" height="22" fill="var(--fuga)" rx="2"><title>Teléfono / WhatsApp · 7 de 21 estadías elegibles con fuga · ARS 358.858</title></rect>
+          <text class="svg-val" x="248" y="147">358.858</text>
+        </g>
+        <g>
+          <text class="svg-label" x="0" y="186">Walk-in</text>
+          <rect class="bar" x="150" y="172" width="89" height="22" fill="var(--fuga)" rx="2"><title>Walk-in · 6 de 14 estadías elegibles con fuga · ARS 353.824</title></rect>
+          <text class="svg-val" x="247" y="187">353.824</text>
+        </g>
+        <g>
+          <text class="svg-label" x="0" y="226">Expedia</text>
+          <rect class="bar" x="150" y="212" width="61" height="22" fill="var(--fuga)" rx="2"><title>Expedia · 5 de 14 estadías elegibles con fuga · ARS 241.553</title></rect>
+          <text class="svg-val" x="219" y="227">241.553</text>
+        </g>
+        <line x1="150" y1="248" x2="570" y2="248" stroke="var(--grid)" stroke-width="1"/>
+        <text class="svg-mut" x="150" y="264">0</text>
+        <text class="svg-mut" x="570" y="264" text-anchor="end">ARS 1,67 M</text>
+      </svg>
+    </div>
+    <figcaption>Booking concentra el 43,6% de la fuga. Es el canal que menos datos de identidad del huésped entrega al PMS antes del check-in.</figcaption>
+  </figure>
+
+  <figure>
+    <h3>IVA no capturado, por mes de check-in</h3>
+    <div class="chart-wrap">
+      <svg viewBox="0 0 700 262" role="img" aria-label="Fuga por mes: junio 1.063.884 pesos, julio 1.342.369, agosto 1.296.236, septiembre parcial 117.046">
+        <line x1="60" y1="205" x2="670" y2="205" stroke="var(--grid)" stroke-width="1"/>
+        <line x1="60" y1="45" x2="670" y2="45" stroke="var(--grid)" stroke-width="1" stroke-dasharray="3 4"/>
+        <text class="svg-mut" x="60" y="38">ARS 1,34 M</text>
+
+        <rect class="bar" x="90" y="78" width="96" height="127" fill="var(--fuga)" rx="2"><title>Junio 2026 · 19 estadías con fuga · ARS 1.063.884</title></rect>
+        <text class="svg-val" x="138" y="70" text-anchor="middle">1.063.884</text>
+        <text class="svg-label" x="138" y="225" text-anchor="middle">junio</text>
+        <text class="svg-mut" x="138" y="243" text-anchor="middle">19 estadías</text>
+
+        <rect class="bar" x="240" y="45" width="96" height="160" fill="var(--fuga)" rx="2"><title>Julio 2026 · 24 estadías con fuga · ARS 1.342.369</title></rect>
+        <text class="svg-val" x="288" y="37" text-anchor="middle">1.342.369</text>
+        <text class="svg-label" x="288" y="225" text-anchor="middle">julio</text>
+        <text class="svg-mut" x="288" y="243" text-anchor="middle">24 estadías</text>
+
+        <rect class="bar" x="390" y="51" width="96" height="154" fill="var(--fuga)" rx="2"><title>Agosto 2026 · 28 estadías con fuga · ARS 1.296.236</title></rect>
+        <text class="svg-val" x="438" y="43" text-anchor="middle">1.296.236</text>
+        <text class="svg-label" x="438" y="225" text-anchor="middle">agosto</text>
+        <text class="svg-mut" x="438" y="243" text-anchor="middle">28 estadías</text>
+
+        <rect class="bar" x="540" y="191" width="96" height="14" fill="var(--fuga)" rx="2" opacity="0.55"><title>Septiembre 2026 (mes incompleto: 10 días) · 4 estadías con fuga · ARS 117.046</title></rect>
+        <text class="svg-val" x="588" y="183" text-anchor="middle">117.046</text>
+        <text class="svg-label" x="588" y="225" text-anchor="middle">septiembre</text>
+        <text class="svg-mut" x="588" y="243" text-anchor="middle">10 días</text>
+      </svg>
+    </div>
+    <figcaption>Septiembre está atenuado porque la ventana corta el día 10: no es una mejora, es un mes incompleto.</figcaption>
+  </figure>
+
+  <p>Los mercados emisores que más IVA ponen en juego son <strong>Brasil</strong> (44 estadías, ARS 1.856.955), <strong>Estados Unidos</strong> (30 · ARS 1.643.119) y <strong>Uruguay</strong> (22 · ARS 1.123.152). Entre los tres explican el 55% del total exceptuable del trimestre.</p>
+</section>
+
+<section>
+  <h2>La evidencia, estadía por estadía</h2>
+  <p class="deck">Ningún número de este informe es un promedio inventado: cada peso sale de una reserva identificada con su motivo. Estas son ocho filas del detalle completo, que se entrega en CSV.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Reserva</th><th>Residencia</th><th>Canal</th><th>Check-in</th>
+          <th>Comp.</th><th style="text-align:right">IVA en juego</th><th>Estado</th><th>Por qué</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mono">R-1761</td><td>Estados Unidos</td><td>Walk-in</td><td class="mono">10/07</td>
+          <td class="mono">B</td><td class="num">138.496</td>
+          <td><span class="pill p-fuga">fuga</span></td>
+          <td class="why">Mastercard emitida en EE. UU. (BIN 379141). Correspondía factura T.</td>
+        </tr>
+        <tr>
+          <td class="mono">R-1552</td><td>Francia</td><td>Directo web</td><td class="mono">16/08</td>
+          <td class="mono">B</td><td class="num">134.851</td>
+          <td><span class="pill p-fuga">fuga</span></td>
+          <td class="why">Visa emitida en Francia (BIN 513412). Reserva directa: el dato estaba en el sistema.</td>
+        </tr>
+        <tr>
+          <td class="mono">R-1188</td><td>Alemania</td><td>Booking.com</td><td class="mono">17/06</td>
+          <td class="mono">B</td><td class="num">111.769</td>
+          <td><span class="pill p-fuga">fuga</span></td>
+          <td class="why">Transferencia desde banco del exterior — medio de pago habilitante.</td>
+        </tr>
+        <tr>
+          <td class="mono">R-1369</td><td>Estados Unidos</td><td>Despegar</td><td class="mono">07/07</td>
+          <td class="mono">B</td><td class="num">110.068</td>
+          <td><span class="pill p-fuga">fuga</span></td>
+          <td class="why">Transferencia desde banco del exterior. Estadía de 7 noches.</td>
+        </tr>
+        <tr>
+          <td class="mono">R-1036</td><td>Chile</td><td>Despegar</td><td class="mono">18/06</td>
+          <td class="mono">T</td><td class="num">17.893</td>
+          <td><span class="pill p-riesgo">sin legajo</span></td>
+          <td class="why">Factura T bien emitida, pero sin pasaporte ni documentación migratoria archivada.</td>
+        </tr>
+        <tr>
+          <td class="mono">R-1767</td><td>Estados Unidos</td><td>Teléfono</td><td class="mono">14/08</td>
+          <td class="mono">T</td><td class="num">141.776</td>
+          <td><span class="pill p-ok">correcta</span></td>
+          <td class="why">Factura T con legajo completo. Así se ve una estadía bien resuelta.</td>
+        </tr>
+        <tr>
+          <td class="mono">R-1008</td><td>Estados Unidos</td><td>Expedia</td><td class="mono">23/08</td>
+          <td class="mono">B</td><td class="num">0</td>
+          <td><span class="pill p-no">no elegible</span></td>
+          <td class="why">No residente, pero pagó con tarjeta emitida en Argentina. <strong>La factura B está bien.</strong></td>
+        </tr>
+        <tr>
+          <td class="mono">R-1014</td><td>Chile</td><td>Walk-in</td><td class="mono">30/06</td>
+          <td class="mono">B</td><td class="num">0</td>
+          <td><span class="pill p-no">no elegible</span></td>
+          <td class="why">Ídem: BIN argentino. El régimen mira el plástico, no el pasaporte.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:13px;color:var(--ink-3);margin-top:10px">Comp. = clase de comprobante emitido. Importes en pesos, sobre la base de alojamiento y desayuno incluido; los consumos extra quedan fuera del régimen y se facturan aparte.</p>
+</section>
+
+<section>
+  <h2>Qué significa esto en tu tarifa</h2>
+  <p class="deck">La fuga es una cara del asunto. La otra es que la exención, bien operada, es una ventaja de precio que no te cuesta un peso de tarifa neta.</p>
+
+  <div class="calc">
+    <div class="calc-rows">
+      <div class="calc-row"><span>Tarifa publicada, con IVA</span><b>ARS 95.000</b></div>
+      <div class="calc-row"><span>IVA contenido (21% sobre el neto)</span><b>ARS 16.488</b></div>
+      <div class="calc-row"><span>Lo que cobrás igual — tu tarifa neta</span><b>ARS 78.512</b></div>
+    </div>
+    <div class="calc-out">
+      <div class="calc-row"><span>Lo que ve el huésped extranjero</span><b>ARS 78.512 · −17,4%</b></div>
+    </div>
+    <p class="rule">Regla de bolsillo: dividí la tarifa por 1,21.<br>1 − 1/1,21 = <strong>17,36%</strong> más barato en la vidriera, con el mismo neto en tu caja.</p>
+  </div>
+
+  <p style="margin-top:22px">No es 21% de descuento: el 21% se calcula sobre el neto y el descuento sobre el precio final. Son la misma plata mirada desde dos bases. Y es una decisión tuya: <strong>pasás la exención al huésped y aparecés 17,4% más barato que el hotel de al lado que no sabe operar el régimen, o la retenés y mejorás margen</strong>. Bajar el precio de lista te cuesta plata; esto no.</p>
+</section>
+
+<section>
+  <h2>Qué haríamos con esto</h2>
+  <p class="deck">La Radiografía mide hacia atrás. Corregir el pasado depende de notas de crédito y de un huésped que ya se fue: lo que se recupera es de acá en adelante.</p>
+
+  <ol class="steps">
+    <li><b>Conectamos las dos fuentes</b><span>Export de reservas del PMS y liquidación de la pasarela, automatizados. No tocamos tu PMS ni te pedimos cambiarlo.</span></li>
+    <li><b>Marcamos la elegibilidad antes del check-out</b><span>La recepción ve en pantalla si corresponde factura T y qué documento falta, mientras el huésped todavía está en el mostrador.</span></li>
+    <li><b>Armamos el legajo solo</b><span>Foto del pasaporte, lectura multilingüe, expediente por estadía. Las 18 estadías en riesgo de este trimestre no vuelven a pasar.</span></li>
+    <li><b>Dejamos listo el régimen informativo</b><span>El archivo del mes, validado, antes del día 15. Con alerta si alguna estadía quedó sin documentación.</span></li>
+    <li><b>Mostramos el precio exento en tu canal directo</b><span>El huésped extranjero ve los ARS 78.512 en tu web, no en la de Booking.</span></li>
+  </ol>
+</section>
+
+<footer>
+  <p><b>Datos.</b> Las 800 reservas de este informe son sintéticas y se generaron con semilla fija para que el resultado sea reproducible. El hotel «Demo Recoleta 42» no existe y ninguna cifra corresponde a un establecimiento real. Los BIN utilizados son ficticios; en producción se resuelven contra un proveedor con cobertura global.</p>
+  <p><b>Alcance.</b> Veintiuno prepara y prueba: no brinda asesoramiento fiscal ni impositivo, no interpreta casos límite y no firma presentaciones. La posición fiscal del establecimiento y la presentación del régimen informativo siguen a cargo de su contador. Este informe no garantiza el resultado de una fiscalización.</p>
+  <p><b>Marco.</b> Resolución General Conjunta 3971/2016 (AFIP/ARCA) y Resolución 566/2016 del Ministerio de Turismo, vigentes desde el 1 de enero de 2017. Régimen distinto del de reintegro de IVA por compra de bienes (tax free minorista), que se rige por la RG 5843/2026 y no alcanza al alojamiento.</p>
+</footer>
+
+</div>

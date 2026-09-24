@@ -1,0 +1,389 @@
+{
+  "hotel_consultado": "Hotel Prueba Veintiuno",
+  "ciudad": "Buenos Aires",
+  "generado": "2026-09-15T21:43:18",
+  "modo_degradado": false,
+  "hallazgos": {
+    "en_padron_gcba": {
+      "campo": "en_padron_gcba",
+      "valor": true,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://data.buenosaires.gob.ar/dataset/alojamientos-turisticos/resource/juqdkmgo-51-resource/download",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "nombre: Hotel Prueba Veintiuno",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "categoria": {
+      "campo": "categoria",
+      "valor": "3 Estrellas",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://data.buenosaires.gob.ar/dataset/alojamientos-turisticos/resource/juqdkmgo-51-resource/download",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "tipo: 3 Estrellas",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "domicilio": {
+      "campo": "domicilio",
+      "valor": "AV. CALLAO 1234",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://data.buenosaires.gob.ar/dataset/alojamientos-turisticos/resource/juqdkmgo-51-resource/download",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "direccion: AV. CALLAO 1234",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "web": {
+      "campo": "web",
+      "valor": "https://hotelpruebaveintiuno.test",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://data.buenosaires.gob.ar/dataset/alojamientos-turisticos/resource/juqdkmgo-51-resource/download",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "web: https://hotelpruebaveintiuno.test",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "habitaciones": {
+      "campo": "habitaciones",
+      "valor": 38,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "38 habitaciones en el corazón de Recoleta",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "barrio": {
+      "campo": "barrio",
+      "valor": "Recoleta",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "38 habitaciones en el corazón de Recoleta",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "adr_publicado_ars": {
+      "campo": "adr_publicado_ars",
+      "valor": 115000,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "Tarifas en pesos: ARS 115.000 la noche, IVA incluido",
+      "confianza": "media",
+      "nota": ""
+    },
+    "publica_precios_usd": {
+      "campo": "publica_precios_usd",
+      "valor": true,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "Habitacion Standard desde USD 95 por noche",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "menciona_exencion": {
+      "campo": "menciona_exencion",
+      "valor": true,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "may be eligible for a tax free rate",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "sitio_en_ingles": {
+      "campo": "sitio_en_ingles",
+      "valor": true,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "International guests",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "motor_reserva_propio": {
+      "campo": "motor_reserva_propio",
+      "valor": true,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "Reservar ahora",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "pms_detectado": {
+      "campo": "pms_detectado",
+      "valor": "Cloudbeds",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "Reservar ahora",
+      "confianza": "media",
+      "nota": ""
+    },
+    "instagram": {
+      "campo": "instagram",
+      "valor": "@hotelpruebaveintiuno",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "Instagram",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "decisor_contacto": {
+      "campo": "decisor_contacto",
+      "valor": "reservas@hotelpruebaveintiuno.test",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "reservas@hotelpruebaveintiuno.test",
+      "confianza": "media",
+      "nota": ""
+    },
+    "decisor_es_generico": {
+      "campo": "decisor_es_generico",
+      "valor": true,
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "reservas@hotelpruebaveintiuno.test",
+      "confianza": "alta",
+      "nota": ""
+    },
+    "es_cadena": {
+      "campo": "es_cadena",
+      "valor": "independiente",
+      "estado": "verificado",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "Hotel Prueba Veintiuno",
+      "confianza": "baja",
+      "nota": ""
+    },
+    "responde_resenas": {
+      "campo": "responde_resenas",
+      "valor": true,
+      "estado": "SIN VERIFICAR",
+      "fuente": {
+        "url": "https://hotelpruebaveintiuno.test",
+        "titulo": "",
+        "consultada": "2026-09-15"
+      },
+      "cita": "el hotel responde todas las reseñas en menos de 24 horas",
+      "confianza": "baja",
+      "nota": "la cita no aparece en la fuente citada"
+    }
+  },
+  "pendientes": [
+    {
+      "campo": "responde_resenas",
+      "pregunta": "Confirmar 'responde_resenas' = True",
+      "url": "https://hotelpruebaveintiuno.test",
+      "porque": "el agente lo encontró pero no se pudo comprobar: la cita no aparece en la fuente citada"
+    },
+    {
+      "campo": "pct_resenas_idioma_extranjero",
+      "pregunta": "Que porcentaje de las últimas 30 reseñas está en inglés, portugués, francés o alemán?",
+      "url": "https://www.booking.com/",
+      "porque": "vale 20 puntos del ICP y es el proxy central de no residentes"
+    }
+  ],
+  "interpretacion": {
+    "angulo_de_entrada": "Ya menciona 'tax free' en la sección en inglés pero no dice factura T: o lo opera sin legajo, o lo promete y no lo cumple. Las dos son venta.",
+    "objecion_esperada": "'Eso lo maneja mi contador'. Respuesta: el legajo lo protege a el, por eso el contador es aliado y no obstaculo.",
+    "proximo_paso": "Mail al contacto publicado pidiendo el nombre del gerente."
+  },
+  "score": {
+    "puntos": 71,
+    "maximo_evaluable": 80,
+    "respuestas": [
+      {
+        "numero": 1,
+        "pregunta": "% de reseñas en idioma extranjero",
+        "puntos": 0,
+        "maximo": 20,
+        "detalle": "sin dato verificado",
+        "evaluable": false
+      },
+      {
+        "numero": 2,
+        "pregunta": "Cantidad de habitaciones",
+        "puntos": 10,
+        "maximo": 10,
+        "detalle": "38 habitaciones",
+        "evaluable": true
+      },
+      {
+        "numero": 3,
+        "pregunta": "Independiente o de cadena",
+        "puntos": 15,
+        "maximo": 15,
+        "detalle": "independiente",
+        "evaluable": true
+      },
+      {
+        "numero": 4,
+        "pregunta": "Decisor con nombre y contacto directo",
+        "puntos": 6,
+        "maximo": 15,
+        "detalle": "sólo contacto genérico",
+        "evaluable": true
+      },
+      {
+        "numero": 5,
+        "pregunta": "Sitio en inglés y motor de reserva propio",
+        "puntos": 10,
+        "maximo": 10,
+        "detalle": "inglés: sí · motor propio: sí",
+        "evaluable": true
+      },
+      {
+        "numero": 6,
+        "pregunta": "ADR publicado en fecha alta",
+        "puntos": 10,
+        "maximo": 10,
+        "detalle": "ARS 115.000",
+        "evaluable": true
+      },
+      {
+        "numero": 7,
+        "pregunta": "Ubicación en el corredor de receptivo",
+        "puntos": 10,
+        "maximo": 10,
+        "detalle": "recoleta",
+        "evaluable": true
+      },
+      {
+        "numero": 8,
+        "pregunta": "Menciona exención o publica en USD",
+        "puntos": 10,
+        "maximo": 10,
+        "detalle": "menciona la exención",
+        "evaluable": true
+      }
+    ],
+    "lista": "indeterminado",
+    "motivo_lista": "Falta el dato de idioma de las reseñas, que es el proxy central del ICP. Sin eso el puntaje no califica nada.",
+    "sin_datos": [
+      "% de reseñas en idioma extranjero"
+    ]
+  },
+  "estimacion": {
+    "que_mide": "IVA en juego: el impuesto sobre las estadías que podrían encuadrar en el régimen de exención. NO es la fuga: qué porción se está facturando mal sólo lo dice la Radiografía sobre el export del hotel.",
+    "hay_numero": false,
+    "motivo_sin_numero": "Falta un insumo observable: proporción de huéspedes no residentes. Se resuelve mirando el sitio del hotel o su ficha en una OTA; hasta entonces no se emite número.",
+    "rango_iva_mensual_estimado_ars": null,
+    "rango_iva_anualizado_estimado_ars": null,
+    "insumos": [
+      {
+        "nombre": "habitaciones",
+        "valor": 38,
+        "procedencia": "observado",
+        "fundamento": "Cantidad de habitaciones publicada",
+        "unidad": "hab",
+        "campo": "habitaciones"
+      },
+      {
+        "nombre": "ADR publicado con IVA",
+        "valor": 115000,
+        "procedencia": "observado",
+        "fundamento": "Tarifa por noche publicada en fecha alta",
+        "unidad": "ARS",
+        "campo": "adr_publicado_ars"
+      },
+      {
+        "nombre": "proporción de huéspedes no residentes",
+        "valor": null,
+        "procedencia": "SIN VERIFICAR",
+        "fundamento": "Proxy: idioma de las reseñas públicas, muestra sin precisar. No es la mezcla real de nacionalidades del PMS.",
+        "unidad": "%",
+        "campo": "pct_resenas_idioma_extranjero"
+      },
+      {
+        "nombre": "ocupación",
+        "valor": [
+          0.5,
+          0.65
+        ],
+        "procedencia": "supuesto",
+        "fundamento": "Ocupación general de CABA ~65% en julio 2026; los 2-3 estrellas entre 45-50%. Ver README.md y research/customer-acquisition.md.",
+        "unidad": "%",
+        "campo": ""
+      },
+      {
+        "nombre": "pago desde el exterior",
+        "valor": [
+          0.35,
+          0.55
+        ],
+        "procedencia": "supuesto",
+        "fundamento": "Proporción de huéspedes no residentes que paga con tarjeta emitida en el exterior o transferencia del exterior. SIN VERIFICAR: la corrida de la demo dio ~50%, pero es un supuesto del generador sintético, no un dato de campo. Es exactamente la hipótesis 1 del README, todavía sin validar.",
+        "unidad": "%",
+        "campo": ""
+      }
+    ],
+    "advertencias": []
+  },
+  "consumo": {
+    "turnos": "0/24",
+    "búsquedas web": "0/8",
+    "páginas leídas": "1/12",
+    "verificaciones de cita": 0,
+    "tokens entrada": 0,
+    "tokens salida": 0,
+    "duración": "0s"
+  },
+  "secciones_incompletas": []
+}

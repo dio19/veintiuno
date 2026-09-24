@@ -1,0 +1,21 @@
+{
+  "places": [
+    {
+      "id": "ChIJprueba21",
+      "displayName": {"text": "Hotel Prueba Veintiuno", "languageCode": "es"},
+      "formattedAddress": "Av. Callao 1234, C1023 Cdad. Autónoma de Buenos Aires, Argentina",
+      "rating": 4.3,
+      "userRatingCount": 412,
+      "websiteUri": "https://hotelpruebaveintiuno.test",
+      "nationalPhoneNumber": "011 3333-4444",
+      "googleMapsUri": "https://maps.google.com/?cid=21",
+      "reviews": [
+        {"originalText": {"text": "Great location in Recoleta", "languageCode": "en"}},
+        {"originalText": {"text": "Excelente ubicación", "languageCode": "es"}},
+        {"originalText": {"text": "Ótimo café da manhã", "languageCode": "pt"}},
+        {"originalText": {"text": "Very friendly staff", "languageCode": "en"}},
+        {"originalText": {"text": "Séjour très agréable", "languageCode": "fr"}}
+      ]
+    }
+  ]
+}

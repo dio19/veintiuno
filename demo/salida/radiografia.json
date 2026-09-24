@@ -1,0 +1,154 @@
+{
+  "_aviso": "DATOS DE DEMOSTRACIÓN. El hotel no existe. Generados con semilla fija (ver generar_datos_demo.py).",
+  "marco_normativo": "RG Conjunta 3971/2016 (AFIP/ARCA) + Res. 566/2016 (MinTur)",
+  "kpi": {
+    "hotel": "Demo Recoleta 42",
+    "ventana": {
+      "desde": "2026-06-11",
+      "hasta": "2026-09-10",
+      "dias": 91
+    },
+    "reservas_analizadas": 800,
+    "noches_totales": 2196,
+    "estadias_elegibles": 172,
+    "pct_elegibles": 21.5,
+    "iva_en_juego_ventana": 8339703,
+    "fuga_detectada_ventana": 3819535,
+    "fuga_estadias": 75,
+    "tasa_de_fuga_pct": 43.6,
+    "iva_en_riesgo_por_legajo_ventana": 864852,
+    "estadias_riesgo_legajo": 18,
+    "estadias_a_revisar": 0,
+    "correctas": 79,
+    "fuga_mensualizada": 1259187,
+    "fuga_anualizada": 15320113,
+    "descuento_equivalente_pct": 17.36
+  },
+  "por_estado": {
+    "no_elegible": {
+      "n": 628,
+      "iva": 0,
+      "neto": 142471736
+    },
+    "correcto": {
+      "n": 79,
+      "iva": 3655316,
+      "neto": 17406284
+    },
+    "fuga": {
+      "n": 75,
+      "iva": 3819535,
+      "neto": 18188265
+    },
+    "riesgo_legajo": {
+      "n": 18,
+      "iva": 864852,
+      "neto": 4118348
+    },
+    "revisar": {
+      "n": 0,
+      "iva": 0,
+      "neto": 0
+    }
+  },
+  "por_mes": {
+    "2026-06": {
+      "elegibles": 34,
+      "fuga_n": 19,
+      "fuga_iva": 1063884,
+      "correctas": 10,
+      "iva_total": 1663165
+    },
+    "2026-07": {
+      "elegibles": 64,
+      "fuga_n": 24,
+      "fuga_iva": 1342369,
+      "correctas": 32,
+      "iva_total": 3421191
+    },
+    "2026-08": {
+      "elegibles": 59,
+      "fuga_n": 28,
+      "fuga_iva": 1296236,
+      "correctas": 27,
+      "iva_total": 2625675
+    },
+    "2026-09": {
+      "elegibles": 15,
+      "fuga_n": 4,
+      "fuga_iva": 117046,
+      "correctas": 10,
+      "iva_total": 629672
+    }
+  },
+  "por_canal": {
+    "Booking.com": {
+      "elegibles": 68,
+      "fuga_n": 31,
+      "fuga_iva": 1665698
+    },
+    "Directo web": {
+      "elegibles": 35,
+      "fuga_n": 16,
+      "fuga_iva": 737637
+    },
+    "Despegar": {
+      "elegibles": 20,
+      "fuga_n": 10,
+      "fuga_iva": 461965
+    },
+    "Telefono/WhatsApp": {
+      "elegibles": 21,
+      "fuga_n": 7,
+      "fuga_iva": 358858
+    },
+    "Walk-in": {
+      "elegibles": 14,
+      "fuga_n": 6,
+      "fuga_iva": 353824
+    },
+    "Expedia": {
+      "elegibles": 14,
+      "fuga_n": 5,
+      "fuga_iva": 241553
+    }
+  },
+  "por_pais": {
+    "Brasil": {
+      "n": 44,
+      "iva": 1856955
+    },
+    "Estados Unidos": {
+      "n": 30,
+      "iva": 1643119
+    },
+    "Uruguay": {
+      "n": 22,
+      "iva": 1123152
+    },
+    "Francia": {
+      "n": 12,
+      "iva": 845223
+    },
+    "Alemania": {
+      "n": 15,
+      "iva": 718062
+    },
+    "Colombia": {
+      "n": 17,
+      "iva": 687030
+    },
+    "España": {
+      "n": 10,
+      "iva": 527809
+    },
+    "Chile": {
+      "n": 12,
+      "iva": 518612
+    },
+    "México": {
+      "n": 10,
+      "iva": 419741
+    }
+  }
+}
